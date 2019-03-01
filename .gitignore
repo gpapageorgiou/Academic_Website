@@ -2,3 +2,11 @@
 .Rhistory
 .RData
 .Ruserdata
+*.history
+.gz
+src/*.o
+src/*.so
+src/*.dll
+inst/doc
+public
+website.Rproj
