@@ -1827,6 +1827,7 @@ nav#navbar-main li.nav-item {
 }
 
 .navbar-light .navbar-brand {
+  font-family: 'Kranky', cursive;
   font-weight: bold;
   font-size: 1.2em;
   color: {{ .Get "menu_title" }};
