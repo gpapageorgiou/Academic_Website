@@ -1716,7 +1716,8 @@ a.badge:hover {
 }
 
 .navbar-light {
-  background: {{ .Get "menu_primary" }} !important;
+  background-color: rgb(196, 196, 196) !important;
+  /*background: {{ .Get "menu_primary" }} !important;*/
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
 }
 
@@ -2399,6 +2400,8 @@ body.dark,
 }
 
 .dark .navbar-light {
+  background-color: rgb(20, 22, 34) !important;
+  /*background-color: rgb(20, 22, 34);*/
   box-shadow: 0 0.125rem 0.25rem 0 rgba(255, 255, 255, .11);
   border-color: #070707;
 }
