@@ -1720,10 +1720,10 @@ a.badge:hover {
   /*default:*/
   /*background: {{ .Get "menu_primary" }} !important;*/
   /*custom light:*/
-  background-color: rgba(131, 35, 49, 1) !important;
+  background-color: rgba(230, 230, 230, 1) !important;
   /*default:*/
   /*box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11);*/
-  box-shadow: 0 0.125rem 0.25rem 0 rgba(223, 35, 33, 1);
+  box-shadow: 0 0.075rem 0.33rem 0 rgba(0, 67, 143, 1);
 }
 
 .navbar-light .navbar-toggler {
@@ -1827,9 +1827,9 @@ nav#navbar-main li.nav-item {
 }
 
 .navbar-light .navbar-brand {
-  font-family: 'Kranky', cursive;
-  font-weight: bold;
-  font-size: 1.2em;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: normal;
+  font-size: 1em;
   color: {{ .Get "menu_title" }};
 }
 
