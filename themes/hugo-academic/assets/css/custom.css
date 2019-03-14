@@ -1716,9 +1716,10 @@ a.badge:hover {
 }
 
 .navbar-light {
-  background-color: rgb(196, 196, 196) !important;
-  /*background: {{ .Get "menu_primary" }} !important;*/
-  box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
+  /*background-color: rgb(196, 196, 196) !important;*/
+  background: {{ .Get "menu_primary" }} !important;
+  /*box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11);*/
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11);
 }
 
 .navbar-light .navbar-toggler {
@@ -2400,9 +2401,11 @@ body.dark,
 }
 
 .dark .navbar-light {
-  background-color: rgb(20, 22, 34) !important;
+  /*background-color: rgba(53, 52, 49, 1) !important;*/
+  /*background-color: rgba(249, 97, 103, 1) !important;*/
   /*background-color: rgb(20, 22, 34);*/
-  box-shadow: 0 0.125rem 0.25rem 0 rgba(255, 255, 255, .11);
+  /*box-shadow: 0 0.125rem 0.25rem 0 rgba(255, 255, 255, .11);*/
+  box-shadow: 0 0.125rem 0.75rem 0 rgba(255, 255, 255, .11);
   border-color: #070707;
 }
 
