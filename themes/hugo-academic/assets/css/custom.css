@@ -1717,9 +1717,13 @@ a.badge:hover {
 
 .navbar-light {
   /*background-color: rgb(196, 196, 196) !important;*/
-  background: {{ .Get "menu_primary" }} !important;
+  /*default:*/
+  /*background: {{ .Get "menu_primary" }} !important;*/
+  /*custom light:*/
+  background-color: rgba(131, 35, 49, 1) !important;
+  /*default:*/
   /*box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11);*/
-  box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11);
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(223, 35, 33, 1);
 }
 
 .navbar-light .navbar-toggler {
