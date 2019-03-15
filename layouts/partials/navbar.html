@@ -1,5 +1,9 @@
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
-  <link href="https://fonts.googleapis.com/css?family=Quantico" rel="stylesheet">
+  <!--<link href="https://fonts.googleapis.com/css?family=Quantico" rel="stylesheet">-->
+  <!--<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">-->
+  <!--<link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight" rel="stylesheet">-->
+  <!--<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">-->
+  <!--<link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">-->
   <div class="container">
 
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -7,10 +11,6 @@
         {{- if .Site.Params.logo -}}
         <img src="{{ printf "/img/%s" .Site.Params.logo | relURL }}" alt="{{ .Site.Title }}">
         {{- else -}}
-        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
         {{- .Site.Title -}}
         <!--<span style = "color: #850042">Greg</span><span style = "color: #00438f"> Papageorgiou</span>-->
         {{- end -}}

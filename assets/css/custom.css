@@ -701,9 +701,14 @@ a.hero-cta-alt:hover {
 }
 
 .portrait-title h2 {
+  /*added font*/
+  font-family: 'Quantico', sans-serif;
   font-size: 1.75em;
   font-weight: 300;
-  color: #000000;
+  /*default color:*/
+  /*color: #000000;*/
+  /*custom color:*/
+  color: #d70026;
   margin: 20px 0 10px 0;
 }
 
