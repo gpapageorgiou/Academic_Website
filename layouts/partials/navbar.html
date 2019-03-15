@@ -6,7 +6,9 @@
         {{- if .Site.Params.logo -}}
         <img src="{{ printf "/img/%s" .Site.Params.logo | relURL }}" alt="{{ .Site.Title }}">
         {{- else -}}
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
         {{- .Site.Title -}}
+        <!--<span style = "color: #850042">Greg</span><span style = "color: #00438f"> Papageorgiou</span>-->
         {{- end -}}
       </a>
       {{ if or .Site.Menus.main .IsTranslated }}
