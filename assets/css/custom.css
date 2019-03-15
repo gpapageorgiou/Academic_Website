@@ -726,7 +726,10 @@ a.hero-cta-alt:hover {
 .portrait-title h3 {
   font-size: 1rem;
   font-weight: 300;
-  color: rgba(0,0,0, 0.54);
+  /*default:*/
+  /*color: rgba(0,0,0, 0.54);*/
+  /*custom:*/
+  color: rgba(68, 76, 92, 0.75);
   margin: 0px 0 10px 0;
 }
 
@@ -760,7 +763,10 @@ ul.network-icon {
 }
 
 ul.ul-interests li {
-  font-size: 0.9rem;
+  list-style-type: square;
+  font-size: 0.75rem;
+  color: rgba(68, 76, 92, 1);
+  font-weight: bold;
 }
 
 ul.ul-edu {
