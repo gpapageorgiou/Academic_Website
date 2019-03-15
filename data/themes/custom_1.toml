@@ -5,8 +5,13 @@ name = "Dark"
 light = true
 
 # Primary
-primary = "hsl(339, 90%, 68%)"
-primary_light = "hsl(339, 90%, 78%)"
+# defaults:
+# primary = "hsl(339, 90%, 68%)"
+# primary_light = "hsl(339, 90%, 78%)"
+# primary_dark = "hsl(339, 90%, 58%)"
+# custom light:
+primary = "hsla(349, 100%, 42%, 1)"
+primary_light = "hsla(349, 100%, 42%, 1)"
 primary_dark = "hsl(339, 90%, 58%)"
 
 # Menu
@@ -16,9 +21,9 @@ primary_dark = "hsl(339, 90%, 58%)"
 # menu_text_active = "rgba(255,255,255,1)"
 # menu_title = "#fff"
 # custom light:
-menu_text = "rgba(0, 67, 143, 0.75)"
-menu_text_active = "rgba(0, 67, 143, 1)"
-menu_title = "rgba(133, 0, 66, 1)"
+menu_text = "rgba(215, 0, 38, 0.6)"
+menu_text_active = "rgba(215, 0, 38, 1)"
+menu_title = "rgba(255, 255, 255, 1)"
 # custom dark:
 # menu_text = "rgba(249, 97, 103, 0.6)"
 # menu_text_active = "rgba(249, 97, 103, 1)"
@@ -32,5 +37,5 @@ menu_title = "rgba(133, 0, 66, 1)"
 # home_section_odd = "hsla(40, 4%, 15%, 1)"
 # home_section_even = "hsla(40, 4%, 13%, 1)"
 # custom light:
-home_section_odd = "hsla(0, 0%, 98%, 1)"
-home_section_even = "hsla(0, 0%, 95%, 1)"
+home_section_odd = "hsla(50, 17%, 95%, 1)"
+home_section_even = "hsla(50, 17%, 93%, 1)"

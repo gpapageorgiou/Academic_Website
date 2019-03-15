@@ -1720,10 +1720,10 @@ a.badge:hover {
   /*default:*/
   /*background: {{ .Get "menu_primary" }} !important;*/
   /*custom light:*/
-  background-color: rgba(230, 230, 230, 1) !important;
+  background-color: rgba(192, 178, 181, 1) !important;
   /*default:*/
   /*box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11);*/
-  box-shadow: 0 0.075rem 0.33rem 0 rgba(0, 67, 143, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(215, 0, 38, 1);
 }
 
 .navbar-light .navbar-toggler {
@@ -1741,7 +1741,10 @@ a.badge:hover {
 
 .dropdown-menu,
 nav#navbar-main li.nav-item {
-  font-size: {{ .Get "font_size_small" }}px;
+  /*font-size: {{ .Get "font_size_small" }}px;*/
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Quantico', sans-serif;
 }
 
 .navbar-light .navbar-nav>.nav-item>.nav-link,
@@ -1827,9 +1830,13 @@ nav#navbar-main li.nav-item {
 }
 
 .navbar-light .navbar-brand {
-  font-family: 'Press Start 2P', cursive;
-  font-weight: normal;
-  font-size: 1em;
+  /*font-family: 'Press Start 2P', cursive;*/
+  /*font-family: 'Zilla Slab Highlight', cursive;*/
+  /*font-family: 'Cabin Sketch', cursive;*/
+  /*font-family: 'Baloo Tamma', cursive;*/
+  font-family: 'Quantico', sans-serif;
+  font-weight: bold;
+  font-size: 2em;
   color: {{ .Get "menu_title" }};
 }
 
