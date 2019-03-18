@@ -56,13 +56,14 @@ p {
   font-family: 'Ubuntu', sans-serif;
   /*add color*/
   color: rgba(68, 76, 92, 1);
-  font-weight: bold;
+  font-weight: normal;
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
 /* Lists */
 ul, ol, dl {
+  font-family: 'Ubuntu', sans-serif;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -129,6 +130,30 @@ a:hover,
 a:focus {
   color: {{ .Get "link_hover" }};
 }
+
+/*hardcode big icon color*/
+.big-icon {
+  color: rgba(215, 0, 38, 1);
+}
+
+/*example selector icons focus hover properties*/
+#about #profile .big-icon i:focus, i:hover{
+  color: yellow;
+}
+
+/* example selector about widget link idle property*/
+#about.home-section.wg-about a {
+  color: blue;
+}
+
+/* example selector about widget link hover property*/
+#about.home-section.wg-about a:hover {
+  color: yellow;
+}
+
+/*#about .col-lg-8 a{*/
+/*  color: blue;*/
+/*}*/
 
 img,
 video {

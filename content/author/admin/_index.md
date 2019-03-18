@@ -85,6 +85,6 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-I am currently working towards my PhD degree at the Department of Biostatistics of the Erasmus University Medical Center under the supervisition of Prof. [Dimitris Rizopoulos](https://www.drizopoulos.com).
+I am currently working towards my PhD degree at the Department of Biostatistics of the <span style = 'font-weight: bold'>E</span>rasmus <span style = 'font-weight: bold'>U</span>niversity <span style = 'font-weight: bold'>M</span>edical <span style = 'font-weight: bold'>C</span>enter under the supervisition of Prof. <a href = 'https://www.drizopoulos.com' style = 'color: #1995ad'>Dimitris Rizopoulos</a>. [Dimitris Rizopoulos](https://www.drizopoulos.com)
 
 
