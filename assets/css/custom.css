@@ -184,7 +184,7 @@ a:focus {
 
 #about #profile .big-icon i:focus, i:hover{
   color: rgba(215, 0, 38, 1);
-  animation: pulse 0.5s infinite;
+  /*animation: pulse 0.5s infinite;*/
 }
 
 /* example selector about widget link idle property*/
