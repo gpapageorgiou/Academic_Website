@@ -26,7 +26,8 @@ body {
   font-size: 1rem;
   line-height: inherit;
   color: inherit;
-  background-color: {{ .Get "background" }};
+  /*background-color: {{ .Get "background" }};*/
+  background-color: rgba(192, 178, 181, 1);
   margin-top: 70px; /* Offset body content by navbar height. */
   padding-top: 0;
   counter-reset: captions;
@@ -546,11 +547,15 @@ a[data-fancybox] img {
 }
 
 .dark .home-section {
-  background-color: {{ .Get "dark_home_section_odd" }};
+  /*default*/
+  /*background-color: {{ .Get "dark_home_section_odd" }};*/
+  background-color: hsla(270, 4%, 10%, 1);
 }
 
 .dark .home-section:nth-of-type(even) {
-  background-color: {{ .Get "dark_home_section_even" }};
+  /*default*/
+  /*background-color: {{ .Get "dark_home_section_even" }};*/
+  background-color: hsla(270, 4%, 12%, 1);
 }
 
 @media screen and (max-width: 768px) {
