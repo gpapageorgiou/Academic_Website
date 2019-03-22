@@ -55,7 +55,7 @@ p {
   /*add font-family*/
   font-family: 'Ubuntu', sans-serif;
   /*add color*/
-  color: rgba(67, 75, 91, 0.80);
+  color: rgba(67, 75, 91, 1);
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -737,7 +737,7 @@ a.hero-cta-alt:hover {
 .portrait-title h3 {
   /*default size:*/
   /*font-size: 1rem;*/
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   /* default */
   /*font-weight: 300;*/
   font-weight: bold;
@@ -746,22 +746,24 @@ a.hero-cta-alt:hover {
   /*custom:*/
   /*color: rgba(68, 76, 92, 0.75);*/ 
   /*color: rgba(215, 0, 38, 0.75);*/
-  color: rgba(68, 76, 92, 0.5);
-  margin: 0px 0 10px 0;
+  color: #fff;
+  margin: 0px 0 0px 0;
   /*weird glow animation stuff*/
   /*text-shadow: 2px 2px 8px rgba(245, 37, 73, 1);*/
   /*-webkit-animation: glow 1s ease-in-out infinite alternate;
   /*-moz-animation: glow 1s ease-in-out infinite alternate;
   /*animation: glow 1s ease-in-out infinite alternate;*/
   /* text outline*/
-  -webkit-text-stroke: 0.25px rgba(68, 76, 92, 0.75);
+  -webkit-text-stroke: 0.5px rgba(215, 0, 38, 1);
 }
 
 /* make organization font-face different than role */
 #profile .portrait-title span {
   font-size: 1rem;
   font-weight: 300;
-  color: rgba(68, 76, 92, 0.75);
+  /*default color*/
+  /*color: rgba(68, 76, 92, 0.75);*/
+  color:  rgba(67, 75, 91, 0.80);
   /*weird glow animation stuff*/
   /*text-shadow: none;*/
   -webkit-text-stroke: 0px;
@@ -849,6 +851,7 @@ ul.network-icon {
 
 #about.home-section.wg-about p.course {
   text-align: left;
+  color: rgba(67, 75, 91, 0.80)
 } 
 
 #about.home-section.wg-about p.institution {
@@ -2073,6 +2076,23 @@ nav#navbar-main li.nav-item {
     display: block !important;
   }
 }
+
+.navbar-light i.fas.fa-moon {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-light i.fas.fa-moon:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar-light i.fas.fa-search {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-light i.fas.fa-search:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
 
 /*************************************************
  *  Tables
