@@ -27,8 +27,9 @@ interests = [
   "Dynamic Predictions",
   "Longitudinal Data Analsyis", 
   "Survival Analysis", 
+  "Multi-state Models",
   "Incomplete Data Analysis", 
-  "Statistical Software Development"
+  "Statistical Software Development in R & C++"
 ]
 
 # Organizational groups that you belong to (for People widget)
@@ -36,6 +37,10 @@ interests = [
 user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
+[[education.courses]]
+  course = "PhD Student in Biostatistics"
+  institution = "Erasmus University Medical Center"
+
 [[education.courses]]
   course = "MSc in Statistics"
   institution = "KU Leuven"
@@ -85,6 +90,6 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-I am currently working towards my PhD degree at the Department of Biostatistics of the <span style = 'font-weight: bold'>E</span>rasmus <span style = 'font-weight: bold'>U</span>niversity <span style = 'font-weight: bold'>M</span>edical <span style = 'font-weight: bold'>C</span>enter under the supervisition of Prof. <a href = 'https://www.drizopoulos.com' style = 'color: #1995ad'>Dimitris Rizopoulos</a>. [Dimitris Rizopoulos](https://www.drizopoulos.com)
+I am currently working towards my PhD degree at the Department of Biostatistics and the Department of Thorax Surgery of the <span style = 'font-weight: bold'>E</span>rasmus <span style = 'font-weight: bold'>U</span>niversity <span style = 'font-weight: bold'>M</span>edical <span style = 'font-weight: bold'>C</span>enter under the supervisition of Prof. [Dimitris Rizopoulos](https://www.drizopoulos.com), Prof. [Johanna J. M. Takkenberg](https://www.researchgate.net/profile/Johanna_Takkenberg) and Dr. [Mostafa M. Mokhles](https://www.researchgate.net/profile/Mostafa_Mokhles). 
 
-
+My research mainly focuses on extensions of Joint Models for longitudinal and time-to-event data with applications to Thorax Surgery data. More specifically, I am working on the development of joint models that can incorporate intermediate events and time-varying treatments during follow-up as well as the development of individualized dynamic prediction tools which are adaptive to future changes regarding the occurrence of intermediate events or/and treatment changes. 

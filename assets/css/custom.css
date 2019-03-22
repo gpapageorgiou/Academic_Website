@@ -55,7 +55,7 @@ p {
   /*add font-family*/
   font-family: 'Ubuntu', sans-serif;
   /*add color*/
-  color: rgba(68, 76, 92, 1);
+  color: rgba(67, 75, 91, 0.80);
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -130,76 +130,6 @@ a:hover,
 a:focus {
   color: {{ .Get "link_hover" }};
 }
-
-/*hardcode big icon color*/
-.big-icon {
-  /*color: rgba(215, 0, 38, 1);*/
-  color: rgba(215, 0, 38, 0.25);
-}
-
-/*example selector icons focus hover properties*/
-/* add pulse animation */
-/*@-webkit-keyframes pulse {
-  25% {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-  75% {
-    -webkit-transform: scale(0.8);
-    transform: scale(0.8);
-  }
-}
-
-@keyframes pulse {
-  25% {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-  75% {
-    -webkit-transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    transform: scale(0.8);
-  }
-}
-
-.pulse {
-  display: inline-block;
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
-
-.pulse:hover {
-  -webkit-animation-name: pulse;
-  animation-name: pulse;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-}*/
-
-#about #profile .big-icon i:focus, i:hover{
-  color: rgba(215, 0, 38, 1);
-  /*animation: pulse 0.5s infinite;*/
-}
-
-/* example selector about widget link idle property*/
-#about.home-section.wg-about a {
-  color: blue;
-}
-
-/* example selector about widget link hover property*/
-#about.home-section.wg-about a:hover {
-  color: yellow;
-}
-
-/*#about .col-lg-8 a{*/
-/*  color: blue;*/
-/*}*/
 
 img,
 video {
@@ -794,14 +724,47 @@ a.hero-cta-alt:hover {
   margin: 20px 0 10px 0;
 }
 
+/*weird glow animation stuff*/
+/*@-webkit-keyframes glow {
+  from {
+    text-shadow: 2px 2px 0px rgba(245, 37, 73, 1), 2px 2px 2px rgba(245, 37, 73, 1), 2px 2px 4px rgba(245, 37, 73, 1), 2px 2px 6px rgba(245, 37, 73, 1), 2px 2px 8px rgba(245, 37, 73, 1);
+  }
+  to {
+    text-shadow: 1px 1px 2px rgba(245, 37, 73, 1), 1px 1px 4px rgba(245, 37, 73, 1), 1px 1px 6px rgba(245, 37, 73, 1), 1px 1px 8px rgba(245, 37, 73, 1), 1px 1px 10px rgba(245, 37, 73, 1);
+  }
+}*/
+
 .portrait-title h3 {
-  font-size: 1rem;
-  font-weight: 300;
+  /*default size:*/
+  /*font-size: 1rem;*/
+  font-size: 1.5rem;
+  /* default */
+  /*font-weight: 300;*/
+  font-weight: bold;
   /*default:*/
   /*color: rgba(0,0,0, 0.54);*/
   /*custom:*/
-  color: rgba(68, 76, 92, 0.75);
+  /*color: rgba(68, 76, 92, 0.75);*/ 
+  /*color: rgba(215, 0, 38, 0.75);*/
+  color: rgba(68, 76, 92, 0.5);
   margin: 0px 0 10px 0;
+  /*weird glow animation stuff*/
+  /*text-shadow: 2px 2px 8px rgba(245, 37, 73, 1);*/
+  /*-webkit-animation: glow 1s ease-in-out infinite alternate;
+  /*-moz-animation: glow 1s ease-in-out infinite alternate;
+  /*animation: glow 1s ease-in-out infinite alternate;*/
+  /* text outline*/
+  -webkit-text-stroke: 0.25px rgba(68, 76, 92, 0.75);
+}
+
+/* make organization font-face different than role */
+#profile .portrait-title span {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(68, 76, 92, 0.75);
+  /*weird glow animation stuff*/
+  /*text-shadow: none;*/
+  -webkit-text-stroke: 0px;
 }
 
 ul.network-icon {
@@ -829,15 +792,98 @@ ul.network-icon {
   transform: scale(1.2)
 }
 
+/*example selector icons focus hover properties*/
+/* add pulse animation */
+/*@-webkit-keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  75% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+
+@keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  75% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+
+.pulse {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.pulse:hover {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}*/
+
+/*hardcode big icon color*/
+.big-icon {
+  /*color: rgba(215, 0, 38, 1);*/
+  color: rgba(215, 0, 38, 0.75);
+}
+
+#about.home-section.wg-about p {
+  text-align: justify;
+} 
+
+#about.home-section.wg-about p.course {
+  text-align: left;
+} 
+
+#about.home-section.wg-about p.institution {
+  text-align: left;
+} 
+
+#about #profile .big-icon i:focus, i:hover{
+  color: rgba(215, 0, 38, 1);
+  /*animation: pulse 0.5s infinite;*/
+}
+
+/* example selector about widget link idle property*/
+#about.home-section.wg-about a {
+  color: rgba(255, 0, 56, 0.75);
+}
+
+/* example selector about widget link hover property*/
+#about.home-section.wg-about a:hover, a:focus {
+  font-weight: bold;
+  color: rgba(255, 0, 56, 1);
+  text-decoration: none;
+}
+
 .big-icon {
   font-size: 2rem;
 }
 
 ul.ul-interests li {
+  padding-left: 0px;
+  margin-left: -1.5em;
   list-style-type: square;
   font-size: 0.75rem;
-  color: rgba(68, 76, 92, 1);
+  color: rgba(67, 75, 91, 0.80);
   font-weight: bold;
+  text-align: justify;
 }
 
 ul.ul-edu {
@@ -849,17 +895,31 @@ ul.ul-edu li {
   padding: 0px 15px 4px 3px;
 }
 
+/* change color of education icons:*/
+ul.ul-edu.fa-ul i.fa-li.fas.fa-graduation-cap::before {
+  color: rgba(68, 76, 92, 0.75);
+}
+
+ul.ul-edu.fa-ul i.fa-li.fas.fa-graduation-cap {
+  color: rgba(68, 76, 92, 0.75);
+}
+
+
 ul.ul-edu li .description p {
   margin: 0;
 }
 
 ul.ul-edu li .description p.course {
   font-size: 0.9rem;
+  font-weight: bold;
 }
 
 ul.ul-edu li .description p.institution {
-  font-size: 0.75rem;
-  color: rgba(0,0,0,0.6);
+  font-size: 0.8rem;
+  /*default color:*/
+  /*color: rgba(0,0,0,0.6);*/
+  color: rgba(215, 0, 38, 0.75);
+  font-weight: bold;
 }
 
 /*************************************************
