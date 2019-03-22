@@ -549,13 +549,13 @@ a[data-fancybox] img {
 .dark .home-section {
   /*default*/
   /*background-color: {{ .Get "dark_home_section_odd" }};*/
-  background-color: hsla(270, 4%, 10%, 1);
+  background-color: hsla(236, 9%, 12%, 1);
 }
 
 .dark .home-section:nth-of-type(even) {
   /*default*/
   /*background-color: {{ .Get "dark_home_section_even" }};*/
-  background-color: hsla(270, 4%, 12%, 1);
+  background-color: hsla(236, 9%, 14%, 1);
 }
 
 @media screen and (max-width: 768px) {
@@ -2591,12 +2591,32 @@ body.dark,
 }
 
 .dark .navbar-light {
+  background-color: rgba(104, 106, 125, 1) !important;
   /*background-color: rgba(53, 52, 49, 1) !important;*/
   /*background-color: rgba(249, 97, 103, 1) !important;*/
   /*background-color: rgb(20, 22, 34);*/
   /*box-shadow: 0 0.125rem 0.25rem 0 rgba(255, 255, 255, .11);*/
-  box-shadow: 0 0.125rem 0.75rem 0 rgba(255, 255, 255, .11);
-  border-color: #070707;
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(233, 242, 212, 1);
+  /*border-color: #070707;*/
+}
+
+.dark .navbar-light .navbar-brand {
+  color: rgba(255, 255, 255, 1);
+}
+
+.dark .navbar-light .navbar-nav>.nav-item>.nav-link {
+  color: rgba(233, 242, 212, 0.75);
+  background-color: transparent;
+}
+
+.dark .navbar-light .navbar-nav>.nav-item>.nav-link:focus {
+  color: rgba(233, 242, 212, 1);
+  background-color: transparent;
+}
+
+.dark .navbar-light .navbar-nav>.nav-item>.nav-link:hover {
+  color: rgba(233, 242, 212, 1);
+  background-color: transparent;
 }
 
 .dark select {
