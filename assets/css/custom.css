@@ -54,7 +54,8 @@ body {
 /* Body text */
 p {
   /*add font-family*/
-  font-family: 'Ubuntu', sans-serif;
+  /*font-family: 'Ubuntu', sans-serif;*/
+  font-family: 'Play', sans-serif;
   /*add color*/
   color: rgba(67, 75, 91, 1);
   font-weight: normal;
@@ -64,7 +65,8 @@ p {
 
 /* Lists */
 ul, ol, dl {
-  font-family: 'Ubuntu', sans-serif;
+  /*font-family: 'Ubuntu', sans-serif;*/
+  font-family: 'Play', sans-serif;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -725,7 +727,7 @@ a.hero-cta-alt:hover {
   /*default color:*/
   /*color: #000000;*/
   /*custom color:*/
-  color: #d70026;
+  color: rgba(215, 0, 38, 0.9);
   margin: 20px 0 10px 0;
 }
 
@@ -742,17 +744,18 @@ a.hero-cta-alt:hover {
 .portrait-title h3 {
   /*default size:*/
   /*font-size: 1rem;*/
-  font-size: 1rem;
-  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.1rem;
+  /*font-family: 'Ubuntu', sans-serif;*/
+  font-family: 'Play', sans-serif;
   /* default */
   /*font-weight: 300;*/
-  font-weight: bold;
+  font-weight: normal;
   /*default:*/
   /*color: rgba(0,0,0, 0.54);*/
   /*custom:*/
   /*color: rgba(68, 76, 92, 0.75);*/ 
   /*color: rgba(215, 0, 38, 0.75);*/
-  color: rgba(67, 75, 91, 0.80);
+  color: rgba(67, 75, 91, 0.90) !important;
   margin: 0px 0 0px 0;
   /*weird glow animation stuff*/
   /*text-shadow: 2px 2px 8px rgba(245, 37, 73, 1);*/
@@ -848,7 +851,11 @@ ul.network-icon {
 /*hardcode big icon color*/
 .big-icon {
   /*color: rgba(215, 0, 38, 1);*/
-  color: rgba(215, 0, 38, 0.75);
+  color: rgba(215, 0, 38, 0.8);
+}
+
+#about.home-section.wg-about h3 {
+  color: rgba(215, 0, 38, 0.6);
 }
 
 #about.home-section.wg-about p {
@@ -857,7 +864,7 @@ ul.network-icon {
 
 #about.home-section.wg-about p.course {
   text-align: left;
-  color: rgba(67, 75, 91, 0.80)
+  color: rgba(67, 75, 91, 0.7);
 } 
 
 #about.home-section.wg-about p.institution {
@@ -889,8 +896,8 @@ ul.ul-interests li {
   padding-left: 0px;
   margin-left: -1.5em;
   list-style-type: square;
-  font-size: 0.75rem;
-  color: rgba(67, 75, 91, 0.80);
+  font-size: 0.9rem;
+  color: rgba(67, 75, 91, 0.7);
   font-weight: bold;
   text-align: justify;
 }
@@ -927,7 +934,7 @@ ul.ul-edu li .description p.institution {
   font-size: 0.8rem;
   /*default color:*/
   /*color: rgba(0,0,0,0.6);*/
-  color: rgba(215, 0, 38, 0.75);
+  color: rgba(215, 0, 38, 0.5);
   font-weight: bold;
 }
 
