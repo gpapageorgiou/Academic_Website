@@ -1652,6 +1652,26 @@ article .article-metadata {
  *  Contact
  **************************************************/
 
+.contact-widget a {
+  color: rgba(255, 0, 56, 0.75);
+}
+
+.contact-widget a:hover, a:focus {
+  font-weight: bold;
+  color: rgba(255, 0, 56, 1);
+  text-decoration: none;
+}
+
+.dark .contact-widget a {
+  color: rgba(255, 112, 36, 0.75);
+}
+
+.dark .contact-widget a:hover, a:focus {
+  font-weight: bold;
+  color: rgba(255, 112, 36, 1);
+  text-decoration: none;
+}
+
 .contact-widget .fa-ul {
   margin-left: 3.14285714rem; /* Must be > `fa-2x` icon size. */
 }
@@ -1678,6 +1698,32 @@ article .article-metadata {
   width: 100%;
 }
 
+.contact-widget i {
+  color: rgba(192, 178, 181, 0.75);
+} 
+
+.contact-widget i:hover, i:focus {
+  color: rgba(192, 178, 181, 1);
+} 
+
+.dark .contact-widget i {
+  color: rgba(48, 50, 75, 0.75);
+} 
+
+.dark .contact-widget i:hover, i:focus {
+  color: rgba(48, 50, 75, 1);
+} 
+
+.contact-widget li span {
+  color: rgba(67, 75, 91, 1);
+}
+
+.dark .contact-widget li span {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+
+
 /*************************************************
  *  Footer
  **************************************************/
@@ -1702,6 +1748,26 @@ footer a#back_to_top i {
 .dark footer a#back_to_top i,
 .dark .docs .body-footer {
   color: rgba(255,255,255,0.54);
+}
+
+.site-footer a {
+  color: rgba(255, 0, 56, 0.75);
+}
+
+.site-footer a:hover, a:focus {
+  color: rgba(255, 0, 56, 1);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dark .site-footer a {
+  color: rgba(255, 112, 36, 0.75);
+}
+
+.dark .site-footer a:hover, a:focus {
+  color: rgba(255, 112, 36, 1);
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /**************************************************
@@ -2083,6 +2149,14 @@ nav#navbar-main li.nav-item {
 }
 
 .navbar-light i.fas.fa-moon:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.dark .navbar-light i.fas.fa-sun {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.dark .navbar-light i.fas.fa-sun:hover {
   color: rgba(255, 255, 255, 1);
 }
 
