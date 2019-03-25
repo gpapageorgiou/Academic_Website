@@ -720,7 +720,7 @@ a.hero-cta-alt:hover {
 .portrait-title h2 {
   /*added font*/
   font-family: 'Quantico', sans-serif;
-  font-size: 1.75em;
+  font-size: 1.25em;
   font-weight: 300;
   /*default color:*/
   /*color: #000000;*/
@@ -742,7 +742,8 @@ a.hero-cta-alt:hover {
 .portrait-title h3 {
   /*default size:*/
   /*font-size: 1rem;*/
-  font-size: 1.75rem;
+  font-size: 1rem;
+  font-family: 'Ubuntu', sans-serif;
   /* default */
   /*font-weight: 300;*/
   font-weight: bold;
@@ -751,7 +752,7 @@ a.hero-cta-alt:hover {
   /*custom:*/
   /*color: rgba(68, 76, 92, 0.75);*/ 
   /*color: rgba(215, 0, 38, 0.75);*/
-  color: #fff;
+  color: rgba(67, 75, 91, 0.80);
   margin: 0px 0 0px 0;
   /*weird glow animation stuff*/
   /*text-shadow: 2px 2px 8px rgba(245, 37, 73, 1);*/
@@ -759,19 +760,19 @@ a.hero-cta-alt:hover {
   /*-moz-animation: glow 1s ease-in-out infinite alternate;
   /*animation: glow 1s ease-in-out infinite alternate;*/
   /* text outline*/
-  -webkit-text-stroke: 0.5px rgba(215, 0, 38, 1);
+  /*-webkit-text-stroke: 0.5px rgba(215, 0, 38, 1);*/
 }
 
 /* make organization font-face different than role */
 #profile .portrait-title span {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 300;
   /*default color*/
   /*color: rgba(68, 76, 92, 0.75);*/
   color:  rgba(67, 75, 91, 0.80);
   /*weird glow animation stuff*/
   /*text-shadow: none;*/
-  -webkit-text-stroke: 0px;
+  /*-webkit-text-stroke: 0px;*/
 }
 
 ul.network-icon {
@@ -1997,7 +1998,7 @@ nav#navbar-main li.nav-item {
   /*font-family: 'Baloo Tamma', cursive;*/
   font-family: 'Quantico', sans-serif;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.75em;
   color: {{ .Get "menu_title" }};
 }
 
