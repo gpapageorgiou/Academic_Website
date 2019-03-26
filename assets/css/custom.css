@@ -842,6 +842,10 @@ ul.network-icon {
   color: rgba(215, 0, 38, 0.8);
 }
 
+/*#about.home-section.wg-about h1 {
+/*  font-family: 'Quantico', sans-serif;*/
+/*}*/
+
 #about.home-section.wg-about h3 {
   color: rgba(215, 0, 38, 0.6);
 }
