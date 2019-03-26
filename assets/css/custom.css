@@ -1663,12 +1663,12 @@ article .article-metadata {
 }
 
 .dark .contact-widget a {
-  color: rgba(255, 112, 36, 0.75);
+  color: rgba(255, 173, 51, 0.75);
 }
 
 .dark .contact-widget a:hover, a:focus {
   font-weight: bold;
-  color: rgba(255, 112, 36, 1);
+  color: rgba(255, 173, 51, 1);
   text-decoration: none;
 }
 
@@ -1761,11 +1761,11 @@ footer a#back_to_top i {
 }
 
 .dark .site-footer a {
-  color: rgba(255, 112, 36, 0.75);
+  color: rgba(255, 173, 51, 0.75);
 }
 
 .dark .site-footer a:hover, a:focus {
-  color: rgba(255, 112, 36, 1);
+  color: rgba(255, 173, 51, 1);
   text-decoration: none;
   font-weight: bold;
 }
@@ -1957,8 +1957,24 @@ a.badge:hover {
   color: {{ .Get "menu_text" }} !important;
 }
 
+.dark .navbar-toggler {
+  color: rgba(255, 173, 51, 0.75) !important;
+}
+
+.dark .navbar-light .navbar-toggler i.fas.fa-bars:focus, 
+.dark .navbar-light .navbar-toggler i.fas.fa-bars:hover, 
+.dark .navbar-light .navbar-toggler i.fas.fa-bars:visited, 
+.dark .navbar-light .navbar-toggler i.fas.fa-bars:active {
+  color: rgba(255, 173, 51, 1) !important;
+}
+
+.dark .navbar-light .navbar-toggler i.fas.fa-bars {
+  color: rgba(255, 173, 51, 0.75) !important;
+}
+
 .navbar-light .navbar-toggler:focus,
 .navbar-light .navbar-toggler:hover {
+  color: rgba(215, 0, 38, 1) !important;
   background-color: transparent;
 }
 
@@ -2624,7 +2640,7 @@ body.dark,
 
 .dark .portrait-title h2 {
   /*color: #fff;*/
-  color: rgba(255, 112, 36, 0.5);
+  color: rgba(255, 173, 51, 0.5);
 }
 
 .dark .portrait-title h3 {
@@ -2633,7 +2649,7 @@ body.dark,
 }
 
 .dark #about.home-section.wg-about h3 {
-  color: rgba(255, 112, 36, 0.6);
+  color: rgba(255, 173, 51, 0.6);
 }
 
 .dark .portrait-title span {
@@ -2642,19 +2658,19 @@ body.dark,
 
 /* example selector about widget link idle property*/
 .dark #about.home-section.wg-about a {
-  color: rgba(255, 112, 36, 0.75);
+  color: rgba(255, 173, 51, 0.75);
 }
 
 /* example selector about widget link hover property*/
 .dark #about.home-section.wg-about a:hover, a:focus {
   font-weight: bold;
-  color: rgba(255, 112, 36, 1);
+  color: rgba(255, 173, 51, 1);
   text-decoration: none;
 }
 
 .dark ul.ul-edu li .description p.institution {
   /*color: rgba(255, 255, 255, 0.6);*/
-  color: rgba(255, 112, 36, 0.4) !important;
+  color: rgba(255, 173, 51, 0.4) !important;
 }
 
 .dark ul.ul-edu li .description p.course {
@@ -2700,22 +2716,22 @@ body.dark,
   /*default*/
   /*background-color: {{ .Get "dark_home_section_odd" }};*/
   /*background-color: hsla(236, 9%, 12%, 1);*/
-  background-color: hsla(236, 15%, 12%, 1);
+  background-color: hsla(236, 17%, 14%, 1);
 }
 
 .dark .home-section:nth-of-type(even) {
   /*default*/
   /*background-color: {{ .Get "dark_home_section_even" }};*/
   /*background-color: hsla(236, 9%, 14%, 1);*/
-  background-color: hsla(236, 15%, 14%, 1);
+  background-color: hsla(236, 17%, 16%, 1);
 }
 
 body.dark {
-  background-color: hsla(236, 22%, 16%, 1) !important;
+  background-color: hsla(236, 24%, 18%, 1) !important;
 }
 
 .dark .navbar-light {
-  background-color: hsla(236, 22%, 24%, 1) !important;
+  background-color: hsla(236, 24%, 24%, 1) !important;
   /*background-color: rgba(104, 106, 125, 1) !important;*/
   /*background-color: rgba(53, 52, 49, 1) !important;*/
   /*background-color: rgba(249, 97, 103, 1) !important;*/
@@ -2730,30 +2746,30 @@ body.dark {
 }
 
 .dark .navbar-light .navbar-nav>.nav-item>.nav-link {
-  color: rgba(255, 112, 36, 0.75);
+  color: rgba(255, 173, 51, 0.75);
   background-color: transparent;
 }
 
 .dark .navbar-light .navbar-nav>.nav-item>.nav-link:focus {
-  color: rgba(255, 112, 36, 1);
+  color: rgba(255, 173, 51, 1);
   background-color: transparent;
 }
 
 .dark .navbar-light .navbar-nav>.nav-item>.nav-link:hover {
-  color: rgba(255, 112, 36, 1);
+  color: rgba(255, 173, 51, 1);
   background-color: transparent;
 }
 
 .dark .big-icon {
-  color: rgba(255, 112, 36, 0.75);
+  color: rgba(255, 173, 51, 0.75);
 }
 
 .dark .big-icon:hover {
-  color: rgba(255, 112, 36, 1);
+  color: rgba(255, 173, 51, 1);
 }
 
 .dark .big-icon:focus {
-  color: rgba(255, 112, 36, 1);
+  color: rgba(255, 173, 51, 1);
 }
 
 .dark select {
