@@ -2003,11 +2003,13 @@ nav#navbar-main li.nav-item {
 .navbar-light .navbar-nav>.nav-item>.nav-link:focus {
   color: {{ .Get "menu_text" }};
   background-color: transparent;
+  font-size: 1rem;
 }
 
 .navbar-light .navbar-nav>.nav-item>.nav-link:hover {
   color: {{ .Get "menu_text_active" }};
   background-color: transparent;
+  font-size: 1rem;
 }
 
 .navbar-light .navbar-nav>li.nav-item>a.active,
@@ -2015,6 +2017,7 @@ nav#navbar-main li.nav-item {
 .navbar-light .navbar-nav>li.nav-item>a.active:hover {
   color: {{ .Get "menu_text_active" }};
   font-weight: 700;
+  font-size: 1rem;
   background-color: transparent !important; /* Override Bootstrap. */
 }
 
@@ -2762,6 +2765,15 @@ body.dark {
 .dark .navbar-light .navbar-nav>.nav-item>.nav-link:hover {
   color: rgba(255, 173, 51, 1);
   background-color: transparent;
+}
+
+.dark .navbar-light .navbar-nav>li.nav-item>a.active,
+.dark .navbar-light .navbar-nav>li.nav-item>a.active:focus,
+.dark .navbar-light .navbar-nav>li.nav-item>a.active:hover {
+  color: rgba(255, 173, 51, 1);
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: transparent !important; /* Override Bootstrap. */
 }
 
 .dark .big-icon {
