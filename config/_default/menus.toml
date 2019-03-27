@@ -38,6 +38,26 @@
   url = "#contact_1"
   weight = 60
 
+# example dropdown menu blogroll
+  
+#[[main]]
+#  name = "Blogroll"
+#  identifier = "blogs"
+#  url = "#"
+#  weight = 80
+  
+#[[main]]
+#  name = "R-Bloggers"
+#  parent = "blogs"
+#  url = "https://www.r-bloggers.com/"
+#  weight = 1
+
+#[[main]]
+#  name = "Andrew Gelman"
+#  parent = "blogs"
+#  url = "https://statmodeling.stat.columbia.edu/"
+#  weight = 1
+
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[main]]
