@@ -40,17 +40,17 @@
 
 # example dropdown menu blogroll
   
-#[[main]]
-#  name = "Blogroll"
-#  identifier = "blogs"
-#  url = "#"
-#  weight = 80
+[[main]]
+  name = "Blogroll"
+  identifier = "blogs"
+  url = "#"
+  weight = 80
   
-#[[main]]
-#  name = "R-Bloggers"
-#  parent = "blogs"
-#  url = "https://www.r-bloggers.com/"
-#  weight = 1
+[[main]]
+  name = "R-Bloggers"
+  parent = "blogs"
+  url = "https://www.r-bloggers.com/"
+  weight = 1
 
 #[[main]]
 #  name = "Andrew Gelman"
