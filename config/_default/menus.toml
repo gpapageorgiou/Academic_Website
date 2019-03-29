@@ -69,6 +69,12 @@
   parent = "blogs"
   url = "http://elevanth.org/blog/"
   weight = 4  
+  
+[[main]]
+  name = "Simply Statistics by Rafa Irizarry, Roger Peng, Jeff Leek"
+  parent = "blogs"
+  url = "https://simplystatistics.org/"
+  weight = 5   
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
