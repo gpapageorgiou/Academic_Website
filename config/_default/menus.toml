@@ -52,11 +52,23 @@
   url = "https://www.r-bloggers.com/"
   weight = 1
 
-#[[main]]
-#  name = "Andrew Gelman"
-#  parent = "blogs"
-#  url = "https://statmodeling.stat.columbia.edu/"
-#  weight = 1
+[[main]]
+  name = "Statistical Modeling, Causal Inference, and Social Science by Andrew Gelman"
+  parent = "blogs"
+  url = "https://statmodeling.stat.columbia.edu/"
+  weight = 2
+
+[[main]]
+  name = "Statistical Thinking by Frank Harrell"
+  parent = "blogs"
+  url = "http://www.fharrell.com/"
+  weight = 3  
+  
+[[main]]
+  name = "Elements of Evolutionary Anthropology by Richard McElreath"
+  parent = "blogs"
+  url = "http://elevanth.org/blog/"
+  weight = 4  
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

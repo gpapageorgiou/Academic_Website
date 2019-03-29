@@ -2008,11 +2008,89 @@ nav#navbar-main li.nav-item {
 
 /*edit dropdown menus like blogroll*/
 ul.dropdown-menu.show {
-  /*background-color: rgba(215, 0, 38, 0.1);*/
-  background-color: rgba(192, 178, 181, 0.5);
-  color: rgba(215, 0, 38, 1);
+  background-color: rgba(192, 178, 181, 1);
+  /*background-color: rgba(192, 178, 181, 0.5);*/
+  border-color: rgba(215, 0, 38, 1);
   font-family: 'Play', sans-serif;
 }
+
+ul.dropdown-menu.show li {
+  font-size: 17px;
+  /*color: rgba(255, 255, 255, 0.5);*/
+}
+
+ul.dropdown-menu.show li a {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: normal;
+}
+
+ul.dropdown-menu.show li:hover {
+  font-size: 17px;
+  /*font-weight: bold;*/
+  /*color: rgba(255, 255, 255, 1);*/
+  background-color: rgba(215, 0, 38, 0.7);
+}
+
+ul.dropdown-menu.show li:focus {
+  font-size: 17px;
+  /*font-weight: bold;*/
+  /*color: rgba(255, 255, 255, 1);*/
+  background-color: rgba(215, 0, 38, 0.7);
+}
+
+ul.dropdown-menu.show li:hover a {
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+}
+
+ul.dropdown-menu.show li:focus a {
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+}
+/*************************end edit dropdown menus like blogroll******************************/
+
+/* DARK edit dropdown menus like blogroll*/
+.dark ul.dropdown-menu.show {
+  background-color: hsla(20, 5%, 26%, 1);
+  /*background-color: rgba(192, 178, 181, 0.5);*/
+  border-color: rgba(249, 211, 66, 1);
+  font-family: 'Play', sans-serif;
+}
+
+.dark ul.dropdown-menu.show li {
+  font-size: 17px;
+  /*color: rgba(255, 255, 255, 0.5);*/
+}
+
+.dark ul.dropdown-menu.show li a {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: normal;
+}
+
+.dark ul.dropdown-menu.show li:hover {
+  font-size: 17px;
+  /*font-weight: bold;*/
+  /*color: rgba(255, 255, 255, 1);*/
+  background-color: rgba(249, 211, 66, 0.7);
+}
+
+.dark ul.dropdown-menu.show li:focus {
+  font-size: 17px;
+  /*font-weight: bold;*/
+  /*color: rgba(255, 255, 255, 1);*/
+  background-color: rgba(249, 211, 66, 0.7);
+}
+
+.dark ul.dropdown-menu.show li:hover a {
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+}
+
+.dark ul.dropdown-menu.show li:focus a {
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+}
+/*************************end DARK edit dropdown menus like blogroll******************************/
 
 .navbar-light .navbar-nav>.nav-item>.nav-link,
 .navbar-light .navbar-nav>.nav-item>.nav-link:focus,
