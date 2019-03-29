@@ -2006,6 +2006,14 @@ nav#navbar-main li.nav-item {
   font-family: 'Quantico', sans-serif;
 }
 
+/*edit dropdown menus like blogroll*/
+ul.dropdown-menu.show {
+  /*background-color: rgba(215, 0, 38, 0.1);*/
+  background-color: rgba(192, 178, 181, 0.5);
+  color: rgba(215, 0, 38, 1);
+  font-family: 'Play', sans-serif;
+}
+
 .navbar-light .navbar-nav>.nav-item>.nav-link,
 .navbar-light .navbar-nav>.nav-item>.nav-link:focus,
 .navbar-light .navbar-nav>.nav-item>.nav-link:hover {
