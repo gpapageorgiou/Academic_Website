@@ -266,7 +266,8 @@ small,
 .search-results {
   transform: scale(0);
   -webkit-transform: scale(0);
-  background-color: {{ .Get "background" }};
+  /*background-color: {{ .Get "background" }};*/
+  background-color: hsla(50, 17%, 95%, 1);
   bottom: 0;
   left: 0;
   right: 0;
@@ -309,7 +310,9 @@ small,
   position: -webkit-sticky;
   position: sticky;
   top: 70px;  /* Navbar height. */
-  background-color: {{ .Get "background" }};
+  /*default*/
+  /*background-color: {{ .Get "background" }};*/
+  background-color: hsla(50, 17%, 95%, 1);
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
@@ -328,6 +331,18 @@ small,
   line-height: 1;
 }
 
+.search-header i.far.fa-times-circle.text-muted {
+  color: rgba(192, 178, 181, 1) !important;
+}
+
+.search-header i.far.fa-times-circle.text-muted:focus {
+  color: rgba(215, 0, 38, 0.75) !important;
+}
+
+.search-header i.far.fa-times-circle.text-muted:hover {
+  color: rgba(215, 0, 38, 0.75) !important;
+}
+
 .col-search-close {
   text-align: right;
 }
@@ -337,17 +352,27 @@ small,
   line-height: 1;
 }
 
+.search-no-results {
+  font-family: 'Play', sans-serif;
+  color: rgba(67, 75, 91, 1);
+  font-size: 1.5rem;
+}
+
 #search-box {
   position: relative; /* Required for search icon positioning. */
   margin-bottom: 0.5rem;
 }
 
 #search-box::before {
+  /*default*/
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   content: "\f002";
+  color: rgba(215, 0, 38, 1);
   font-size: 1rem;
-  opacity: 0.25;
+  /*default*/
+  /*opacity: 0.25;*/
+  opacity: 0.75;
   line-height: 1rem;
   position: absolute;
   left: 0.7rem;
@@ -356,13 +381,58 @@ small,
 }
 
 #search-box #search-query {
-  border: 1px solid #dedede;
+  font-family: 'Play', sans-serif;
+  color: rgba(67, 75, 91, 1);
+  /*default*/
+  /*border: 1px solid #dedede;*/
+  border: 1px solid rgba(215, 0, 38, 0.75);
   border-radius: 1rem;
   padding: 1rem 1rem 1rem 2rem; /* Wider left padding for search icon to fit in. */
   width: 250px;
   line-height: 1rem;
   height: 1rem;
   font-size: 0.8rem;
+  /*remove outline rectangle*/
+  outline: none;
+}
+
+#search-hits h3 {
+  font-family: 'Play', sans-serif;
+  color: rgba(67, 75, 91, 1);
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+#search-hits a {
+  font-family: 'Play', sans-serif;
+  color: rgba(215, 0, 38, 0.75);
+}
+
+#search-hits a:focus {
+  font-family: 'Play', sans-serif;
+  color: rgba(215, 0, 38, 1);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#search-hits a:hover {
+  font-family: 'Play', sans-serif;
+  color: rgba(215, 0, 38, 1);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#search-hits mark {
+  font-family: 'Play', sans-serif;
+  background-color: rgba(215, 0, 38, 0.5);
+  color: #fff;
+  font-weight: bold;
+}
+
+.article-metadata.search-hit-type {
+  font-family: 'Play', sans-serif;
+  color: rgba(67, 75, 91, 0.5);
+  font-weight: bold;
 }
 
 .search-hit em {
@@ -378,7 +448,9 @@ small,
 }
 
 .search-hit-description {
+  font-family: 'Play', sans-serif;
   font-size: 0.7rem;
+  color: rgba(67, 75, 91, 1);
 }
 
 /* Load more results button - hide when there are no more results. */
