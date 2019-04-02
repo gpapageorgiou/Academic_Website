@@ -25,7 +25,7 @@ email = ""
 interests = [
   "Joint Models for Longitudinal and Survival Data",
   "Dynamic Predictions",
-  "Longitudinal Data Analsyis", 
+  "Longitudinal Data Analysis", 
   "Survival Analysis", 
   "Multi-state Models",
   "Incomplete Data Analysis", 
