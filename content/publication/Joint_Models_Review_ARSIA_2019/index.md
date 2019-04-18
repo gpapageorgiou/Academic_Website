@@ -1,6 +1,6 @@
 +++
 title = "An Overview of Joint Modeling of Time-to-Event and Longitudinal Outcomes"
-date = 2013-07-01T00:00:00
+date = 2019-03-01T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Grigorios Papageorgiou", "Katya Mauff", "Anirudh Tomer", "Dimitris Rizopoulos"]
@@ -24,7 +24,7 @@ publication_short = "In *ARSIA*"
 abstract = "In this review, we present an overview of joint models for longitudinal and time-to-event data. We introduce a generalized formulation for the joint model that incorporates multiple longitudinal outcomes of varying types. We focus on extensions for the parametrization of the association structure that links the longitudinal and time-to-event outcomes, estimation techniques, and dynamic predictions. We also outline the software available for the application of these models."
 
 # Summary. An optional shortened abstract.
-summary = "In this review, we present an overview of joint models for longitudinal and time-to-event data. We introduce a generalized formulation for the joint model that incorporates multiple longitudinal outcomes of varying types. We focus on extensions for the parametrization of the association structure that links the longitudinal and time-to-event outcomes, estimation techniques, and dynamic predictions. We also outline the software available for the application of these models."
+summary = ""
 
 # Digital Object Identifier (DOI)
 doi = "https://www.annualreviews.org/doi/10.1146/annurev-statistics-030718-105048"
