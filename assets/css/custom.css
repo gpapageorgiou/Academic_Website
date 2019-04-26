@@ -1527,6 +1527,10 @@ article .article-metadata {
   background-color: hsla(50, 17%, 95%, 1);
 }
 
+#featured_1.home-section.wg-featured a {
+  font-family: 'Play', sans-serif;
+}
+
 
 /*************************************************
  * Experience
