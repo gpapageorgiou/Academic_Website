@@ -1594,11 +1594,17 @@ article .article-metadata {
   font-family: 'Play', sans-serif;
 }
 
-#talks_1.home-section.wg-pages div.stream-meta.article-metadata span[itemprop = 'startDate']  {
+#talks_1.home-section.wg-pages div.stream-meta.article-metadata span[itemprop = 'event']  {
   font-family: 'Play', sans-serif;
   color: #897076;
   font-size: 0.8rem;
   font-weight: bold;
+}
+
+#talks_1.home-section.wg-pages div.stream-meta.article-metadata span[itemprop = 'startDate']  {
+  font-family: 'Play', sans-serif;
+  color: #897076;
+  font-size: 0.8rem;
 }
 
 #talks_1.home-section.wg-pages div.stream-meta.article-metadata span[itemprop = 'location']  {
