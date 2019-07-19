@@ -1569,10 +1569,10 @@ article .article-metadata {
  * Talks
  **************************************************/
 
-.talk-metadata {
-  color: #4b4f56;
+/*.talk-metadata {
+/*  color: #4b4f56;
   font-size: 0.8rem;
-}
+}*/
 
 /*************************************************
  * Talks_1
@@ -1592,6 +1592,18 @@ article .article-metadata {
 
 #talks_1.home-section.wg-pages div.article-style {
   font-family: 'Play', sans-serif;
+}
+
+#talks_1.home-section.wg-pages div.stream-meta.article-metadata span[itemprop = 'startDate']  {
+  font-family: 'Play', sans-serif;
+  color: #897076;
+  font-size: 1rem;
+}
+
+#talks_1.home-section.wg-pages div.stream-meta.article-metadata span[itemprop = 'location']  {
+  font-family: 'Play', sans-serif;
+  color: #897076;
+  font-size: 1rem;
 }
 
 /*************************************************
