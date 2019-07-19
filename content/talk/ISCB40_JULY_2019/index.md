@@ -71,14 +71,10 @@ math = true
   focal_point = "Right"
 +++
 
-{{% alert note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /alert %}}
+This work is motivated by a study at the Erasmus University Medical Center in the Netherlands on patients who received a Left Ventricular Assist Device (LVAD) after heart failure. These patients may experience multiple and potentially successive complications during follow-up, such as thrombosis and embolism which may increase their risk of dying. To reduce these risks, treating physicians follow these patients closely and collect repeated marker measurements for their liver and kidney function, both before and after LVAD intervention. Their primary research goals are to understand better how these biomarkers are associated with the risk of each complication and how LVAD intervention changes the dynamics between these associations, to better guide their decision making with respect to LVAD intervention. 
 
-Slides can be added in a few ways:
+In this context, the joint modeling framework is a popular choice in addressing such objectives. However, while there has been a lot of work towards extensions of the classic joint modeling framework, such as multivariate joint models, joint models for a longitudinal outcome and a multi-state process and Bayesian shrinkage selection for the association structure in joint models, a unified approach allowing for all these features simultaneously has yet to be studied. Furthermore, investigating the performance of Bayesian shrinkage methods in terms of feature selection in highly correlated settings has not received a lot of attention. 
 
-- **Create** slides using Academic's *Slides* feature and link using `url_slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+We therefore propose a flexible multivariate joint model for longitudinal and multi-state processes that includes LVAD intervention as a time-varying covariate in both the multivariate longitudinal and multi-state sub-models. We further allow for different association structures between the longitudinal marker and the transition-specific intensities, while allowing for baseline characteristics'effects to differ for each transition. To determine the most appropriate functional forms we use informative global-local shrinkage priors on the regression coefficients that correspond to the covariates of teh transition-specific intensities. 
 
-Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code.
+The results suggest that the use of the global-local shrinkage priors improves the estimation and identification of association parameters and functional forms respectively, in highly correlated settings and especially for transitions with low event rates.

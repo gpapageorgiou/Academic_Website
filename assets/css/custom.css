@@ -1586,12 +1586,55 @@ article .article-metadata {
   font-size: 34px;
 }
 
+.pub div.col-12.col-md-3.pub-row-heading {
+  font-family: 'Play', sans-serif;
+  color: #897076;
+}
+
+.pub div.col-12.col-md-9 {
+  font-family: 'Play', sans-serif;
+  color: rgba(215, 0, 38, 0.7);
+  font-weight: bold;
+}
+
+.pub div.col-12.col-md-9 a {
+  font-family: 'Play', sans-serif;
+  color: rgba(215, 0, 38, 0.7);
+  font-weight: bold;
+}
+
+.pub div.col-12.col-md-9 a:hover {
+  font-family: 'Play', sans-serif;
+  color: rgba(215, 0, 38, 1);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.pub div.col-12.col-md-9 a:focus {
+  font-family: 'Play', sans-serif;
+  color: rgba(215, 0, 38, 1);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.pub div.col-12.col-md-9 a:active {
+  font-family: 'Play', sans-serif;
+  color: rgba(215, 0, 38, 1);
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .pub div.btn-links .btn {
   font-size: 0.8rem;
   font-weight: bold;
   border: 2px solid;
   font-family: 'Play', sans-serif;
 }
+
+/*.pub i {
+  /*background-color: rgba(215, 0, 38, 1);
+}*/
+
 
 .pub div.btn-links .btn:hover {
   font-size: 0.8rem;
