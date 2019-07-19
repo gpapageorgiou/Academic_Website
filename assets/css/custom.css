@@ -1578,16 +1578,40 @@ article .article-metadata {
  * Talks_1
  **************************************************/
 
+.pub {
+  background-color: hsla(50, 17%, 95%, 1);
+}
+
+.pub h1[itemprop="name"] {
+  font-size: 28px;
+}
+
 #talks_1.home-section.wg-pages a {
   color: rgba(215, 0, 38, 0.7);
   font-size: 22.5px;
   font-weight: bold;
+  font-family: 'Play', sans-serif;
 }
 
 #talks_1.home-section.wg-pages a:hover {
   color: rgba(215, 0, 38, 1);
   font-size: 22.5px;
   font-weight: bold;
+  font-family: 'Play', sans-serif;
+}
+
+#talks_1.home-section.wg-pages a:focus {
+  color: rgba(215, 0, 38, 1);
+  font-size: 22.5px;
+  font-weight: bold;
+  font-family: 'Play', sans-serif;
+}
+
+#talks_1.home-section.wg-pages a:active {
+  color: rgba(215, 0, 38, 1);
+  font-size: 22.5px;
+  font-weight: bold;
+  font-family: 'Play', sans-serif;
 }
 
 #talks_1.home-section.wg-pages div.article-style {
