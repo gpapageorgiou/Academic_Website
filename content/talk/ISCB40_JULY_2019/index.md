@@ -21,7 +21,7 @@ event = "ISCB"
 event_url = "https://kuleuvencongres.be/iscb40"
 
 # Abstract. What's your talk about?
-abstract = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+abstract = ""
 
 # Summary. An optional shortened abstract.
 summary = "Joint model for <b>multiple longitudinal</b> outcomes, <b>multiple events</b>, with the occurrence of <b>intermediate events</b> and <b>Bayesian shrinkage</b>."

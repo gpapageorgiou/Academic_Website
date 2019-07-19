@@ -1583,7 +1583,44 @@ article .article-metadata {
 }
 
 .pub h1[itemprop="name"] {
-  font-size: 28px;
+  font-size: 34px;
+}
+
+.pub div.btn-links .btn {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid;
+  font-family: 'Play', sans-serif;
+}
+
+.pub div.btn-links .btn:hover {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(50, 17%, 93%, 1);
+  color: hsla(50, 17%, 93%, 1);
+  background: rgba(215, 0, 38, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(215, 0, 38, 1);
+  font-family: 'Play', sans-serif;
+}
+
+.pub div.btn-links .btn:focus {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(50, 17%, 93%, 1);
+  color: hsla(50, 17%, 93%, 1);
+  background: rgba(215, 0, 38, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(215, 0, 38, 1);
+  font-family: 'Play', sans-serif;
+}
+
+.pub div.btn-links .btn:active {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(50, 17%, 93%, 1);
+  color: hsla(50, 17%, 93%, 1);
+  background: rgba(215, 0, 38, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(215, 0, 38, 1);
+  font-family: 'Play', sans-serif;
 }
 
 #talks_1.home-section.wg-pages a {
