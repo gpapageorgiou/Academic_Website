@@ -1597,13 +1597,14 @@ article .article-metadata {
 #talks_1.home-section.wg-pages div.stream-meta.article-metadata span[itemprop = 'startDate']  {
   font-family: 'Play', sans-serif;
   color: #897076;
-  font-size: 1rem;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
 #talks_1.home-section.wg-pages div.stream-meta.article-metadata span[itemprop = 'location']  {
   font-family: 'Play', sans-serif;
   color: #897076;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 /*************************************************
