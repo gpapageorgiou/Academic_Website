@@ -39,10 +39,10 @@ tags = []
 #   E.g. `slides = "example-slides"` references 
 #   `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides = "example-slides"
+slides = ""
 
 # Optional filename of your slides within your talk folder or a URL.
-url_slides = ""
+url_slides = "ISCB_2019.pdf"
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
