@@ -1141,12 +1141,13 @@ ul.share li i {
   color: #fff;
 }
 
-.dark ul.share li i {
-  color: rgb(68, 71, 90);
+ul.share li i {
+  color:hsla(50, 17%, 95%, 1);
+  border-radius: 50%;
 }
 
 ul.share li a {
-  background-color: #b5c6ce;
+  background-color: rgba(214, 0, 39, 0.7);
   display: block;
   border-radius: 50%;
   text-decoration: none !important;
@@ -1154,7 +1155,62 @@ ul.share li a {
 }
 
 ul.share li:hover i {
-  transform: scale(1.4)
+  transform: scale(1);
+  background-color: rgba(214, 0, 39, 1);
+  border-radius: 50%;
+  display: block;
+}
+
+ul.share li:focus i {
+  transform: scale(1);
+  background-color: rgba(214, 0, 39, 1);
+  border-radius: 50%;
+  display: block;
+}
+
+ul.share li:active i {
+  transform: scale(1);
+  background-color: rgba(214, 0, 39, 1);
+  border-radius: 50%;
+  display: block;
+}
+
+/*dark ul.share li i {
+  /*color: rgb(68, 71, 90);
+}*/
+
+.dark ul.share li i {
+  color: hsla(40, 4%, 17%, 1);
+  border-radius: 50%;
+}
+
+.dark ul.share li a {
+  background-color: rgba(249, 211, 66, 0.75);
+  display: block;
+  border-radius: 50%;
+  text-decoration: none !important;
+  margin: 0;
+}
+
+.dark ul.share li:hover i {
+  transform: scale(1);
+  background-color: rgba(249, 211, 66, 1);
+  border-radius: 50%;
+  display: block;
+}
+
+.dark ul.share li:focus i {
+  transform: scale(1);
+  background-color: rgba(249, 211, 66, 1);
+  border-radius: 50%;
+  display: block;
+}
+
+.dark ul.share li:active i {
+  transform: scale(1);
+  background-color: rgba(249, 211, 66, 1);
+  border-radius: 50%;
+  display: block;
 }
 
 /*************************************************
@@ -1761,6 +1817,202 @@ article .article-metadata {
   box-shadow: 0 0.075rem 0.5rem 0 rgba(215, 0, 38, 1);
   font-family: 'Play', sans-serif;
 }
+
+/*************************************************
+ * Dark Talks_1
+ **************************************************/
+
+.dark .pub {
+  background-color: hsla(40, 4%, 17%, 1);
+}
+
+.dark .pub h1[itemprop="name"] {
+  font-size: 34px;
+}
+
+.dark .pub div.col-12.col-md-3.pub-row-heading {
+  font-family: 'Play', sans-serif;
+  color: rgba(255, 255, 250, 1);
+}
+
+.dark .pub div.col-12.col-md-9 {
+  font-family: 'Play', sans-serif;
+  color: rgba(249, 211, 66, 0.75);
+  font-weight: bold;
+}
+
+.dark .pub div.col-12.col-md-9 a {
+  font-family: 'Play', sans-serif;
+  color: rgba(249, 211, 66, 0.75);
+  font-weight: bold;
+}
+
+.dark .pub div.col-12.col-md-9 a:hover {
+  font-family: 'Play', sans-serif;
+  color: rgba(249, 211, 66, 1);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.dark .pub div.col-12.col-md-9 a:focus {
+  font-family: 'Play', sans-serif;
+  color: rgba(249, 211, 66, 1);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.dark .pub div.col-12.col-md-9 a:active {
+  font-family: 'Play', sans-serif;
+  color: rgba(249, 211, 66, 1);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.dark .pub div.btn-links .btn {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid;
+  font-family: 'Play', sans-serif;
+  color: rgba(249, 211, 66, 1);
+}
+
+/*.dark .pub i {
+  /*background-color: rgba(249, 211, 66, 1);
+}*/
+
+
+.dark .pub div.btn-links .btn:hover {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(50, 17%, 93%, 1);
+  color: hsla(50, 17%, 93%, 1);
+  background: hsla(48, 94%, 62%, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 hsla(48, 94%, 62%, 1);
+  font-family: 'Play', sans-serif;
+}
+
+.dark .pub div.btn-links .btn:focus {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(50, 17%, 93%, 1);
+  color: hsla(50, 17%, 93%, 1);
+  background: hsla(48, 94%, 62%, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 hsla(48, 94%, 62%, 1);
+  font-family: 'Play', sans-serif;
+}
+
+.dark .pub div.btn-links .btn:active {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(50, 17%, 93%, 1);
+  color: hsla(50, 17%, 93%, 1);
+  background: hsla(48, 94%, 62%, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 hsla(48, 94%, 62%, 1);
+  font-family: 'Play', sans-serif;
+}
+
+.dark #talks_1.home-section.wg-pages div.article-style {
+  color: rgba(255, 255, 250, 0.9);
+  font-family: 'Play', sans-serif;
+}
+
+.dark #talks_1.home-section.wg-pages a {
+  color: rgba(249, 211, 66, 0.75);
+  font-size: 22.5px;
+  font-weight: bold;
+  font-family: 'Play', sans-serif;
+}
+
+.dark #talks_1.home-section.wg-pages a:hover {
+  color: rgba(249, 211, 66, 1);
+  font-size: 22.5px;
+  font-weight: bold;
+  font-family: 'Play', sans-serif;
+}
+
+.dark #talks_1.home-section.wg-pages a:focus {
+  color: rgba(249, 211, 66, 1);
+  font-size: 22.5px;
+  font-weight: bold;
+  font-family: 'Play', sans-serif;
+}
+
+.dark #talks_1.home-section.wg-pages a:active {
+  color: rgba(249, 211, 66, 1);
+  font-size: 22.5px;
+  font-weight: bold;
+  font-family: 'Play', sans-serif;
+}
+
+.dark #talks_1.home-section.wg-pages div.article-style {
+  font-family: 'Play', sans-serif;
+}
+
+.dark #talks_1.home-section.wg-pages div.stream-meta.article-metadata span[itemprop = 'event'] a {
+  font-family: 'Play', sans-serif;
+  color: rgba(255, 255, 250, 0.75);
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.dark #talks_1.home-section.wg-pages div.stream-meta.article-metadata span[itemprop = 'event'] a:hover, a:focus {
+  font-family: 'Play', sans-serif;
+  color: rgba(255, 255, 250, 1);
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.dark #talks_1.home-section.wg-pages div.stream-meta.article-metadata span[itemprop = 'startDate']  {
+  font-family: 'Play', sans-serif;
+  color: rgba(255, 255, 250, 0.75);
+  font-size: 0.8rem;
+}
+
+.dark #talks_1.home-section.wg-pages div.stream-meta.article-metadata span[itemprop = 'location']  {
+  font-family: 'Play', sans-serif;
+  color: rgba(255, 255, 250, 0.75);
+  font-size: 0.8rem;
+}
+
+.dark #talks_1.home-section.wg-pages div.btn-links .btn {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid;
+  font-family: 'Play', sans-serif;
+}
+
+.dark #talks_1.home-section.wg-pages div.btn-links .btn:hover {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(50, 17%, 93%, 1);
+  color: hsla(50, 17%, 93%, 1);
+  background: hsla(48, 94%, 62%, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 hsla(48, 94%, 62%, 1);
+  font-family: 'Play', sans-serif;
+}
+
+.dark #talks_1.home-section.wg-pages div.btn-links .btn:focus {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(50, 17%, 93%, 1);
+  color: hsla(50, 17%, 93%, 1);
+  background: hsla(48, 94%, 62%, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 hsla(48, 94%, 62%, 1);
+  font-family: 'Play', sans-serif;
+}
+
+.dark #talks_1.home-section.wg-pages div.btn-links .btn:active{
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(50, 17%, 93%, 1);
+  color: hsla(50, 17%, 93%, 1);
+  background: hsla(48, 94%, 62%, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 hsla(48, 94%, 62%, 1);
+  font-family: 'Play', sans-serif;
+}
+
+
 
 /*************************************************
  *  Projects
