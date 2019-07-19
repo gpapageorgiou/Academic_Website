@@ -46,7 +46,8 @@
       <div>
         <span itemprop="event">
           {{ $event := $item.Params.event }}
-          {{ $event }}
+          {{ $event_url := $item.Params.event_url }}
+          <a href= {{ $event_url }}> {{ $event }} </a>
         </span>
         <span class="middot-divider"></span>
         <span itemprop="startDate">

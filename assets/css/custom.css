@@ -1594,22 +1594,30 @@ article .article-metadata {
   font-family: 'Play', sans-serif;
 }
 
-#talks_1.home-section.wg-pages div.stream-meta.article-metadata span[itemprop = 'event']  {
+#talks_1.home-section.wg-pages div.stream-meta.article-metadata span[itemprop = 'event'] a {
   font-family: 'Play', sans-serif;
-  color: #897076;
+  color: rgba(137, 112, 118, 0.7);
   font-size: 0.8rem;
   font-weight: bold;
 }
 
+#talks_1.home-section.wg-pages div.stream-meta.article-metadata span[itemprop = 'event'] a:hover, a:focus {
+  font-family: 'Play', sans-serif;
+  color: rgba(137, 112, 118, 1);
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 #talks_1.home-section.wg-pages div.stream-meta.article-metadata span[itemprop = 'startDate']  {
   font-family: 'Play', sans-serif;
-  color: #897076;
+  color: rgba(137, 112, 118, 0.7);
   font-size: 0.8rem;
 }
 
 #talks_1.home-section.wg-pages div.stream-meta.article-metadata span[itemprop = 'location']  {
   font-family: 'Play', sans-serif;
-  color: #897076;
+  color: rgba(137, 112, 118, 0.7);
   font-size: 0.8rem;
 }
 
