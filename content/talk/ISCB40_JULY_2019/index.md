@@ -24,7 +24,7 @@ event_url = "https://kuleuvencongres.be/iscb40"
 abstract = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
 
 # Summary. An optional shortened abstract.
-summary = "An example talk using Academic's Markdown slides feature."
+summary = "A joint model for <b>multiple longitudinal</b> outcomes, <b>multiple events</b>, including <b>intermediate events</b> and <b>shrinkage</b> to <b>automate</b> the <b>selection of the association structure</b>."
 
 # Is this a featured talk? (true/false)
 featured = false
