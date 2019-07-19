@@ -1,5 +1,5 @@
 +++
-title = "Example Talk"
+title = "Feature selection of longitudinal biomarkers in multivariate joint models for longitudinal and multi-state processes"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -14,11 +14,11 @@ publishDate = 2017-01-01T00:00:00
 authors = []
 
 # Location of event.
-location = "London, United Kingdom"
+location = "Leuven, Belgium"
 
 # Name of event and optional event URL.
-event = "Academic Theme Conference"
-event_url = "https://example.org"
+event = "ISCB"
+event_url = "https://kuleuvencongres.be/iscb40"
 
 # Abstract. What's your talk about?
 abstract = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
