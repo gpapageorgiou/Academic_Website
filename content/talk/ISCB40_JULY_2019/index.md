@@ -24,7 +24,7 @@ event_url = "https://kuleuvencongres.be/iscb40"
 abstract = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
 
 # Summary. An optional shortened abstract.
-summary = "A joint model for <b>multiple longitudinal</b> outcomes, <b>multiple events</b>, including <b>intermediate events</b> and <b>shrinkage</b> to <b>automate</b> the <b>selection of the association structure</b>."
+summary = "Joint model for <b>multiple longitudinal</b> outcomes, <b>multiple events</b>, with the occurrence of <b>intermediate events</b> and <b>Bayesian shrinkage</b>."
 
 # Is this a featured talk? (true/false)
 featured = false
@@ -50,7 +50,7 @@ url_slides = ""
 #   E.g. `projects = ["deep-learning"]` references 
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = ["internal-project"]
+projects = []
 
 # Links (optional).
 url_pdf = ""
