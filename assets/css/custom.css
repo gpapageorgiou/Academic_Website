@@ -1575,6 +1575,26 @@ article .article-metadata {
 }
 
 /*************************************************
+ * Talks_1
+ **************************************************/
+
+#talks_1.home-section.wg-pages a {
+  color: rgba(215, 0, 38, 0.6);
+  font-size: 25px;
+  font-weight: normal;
+}
+
+#talks_1.home-section.wg-pages a:hover {
+  color: rgba(215, 0, 38, 1);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#talks_1.home-section.wg-pages div.article-style {
+  font-family: 'Play', sans-serif;
+}
+
+/*************************************************
  *  Projects
  **************************************************/
 
