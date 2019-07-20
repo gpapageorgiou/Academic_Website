@@ -27,7 +27,8 @@ body {
   line-height: inherit;
   color: inherit;
   /*background-color: {{ .Get "background" }};*/
-  background-color: rgba(192, 178, 181, 1);
+  /*background-color: rgba(192, 178, 181, 1);*/
+  background-color: rgba(245, 245, 245, 1);
   margin-top: 70px; /* Offset body content by navbar height. */
   padding-top: 0;
   counter-reset: captions;
@@ -55,7 +56,7 @@ body {
 p {
   /*add font-family*/
   /*font-family: 'Ubuntu', sans-serif;*/
-  font-family: 'Play', sans-serif;
+  font-family: 'Lato', sans-serif;
   /*add color*/
   color: rgba(67, 75, 91, 1);
   font-weight: normal;
@@ -84,14 +85,16 @@ h1, h2, h3, h4, h5, h6 {
   /* default:*/
   /*font-family: '{{ .Get "heading_font" }}', sans-serif;*/
   /* custom: */
-  font-family: 'Quantico', sans-serif;
+  /*font-family: 'Quantico', sans-serif;*/
+  font-family: 'Play', sans-serif;
   font-weight: 400;
   margin-top: 1rem;
   margin-bottom: .5rem;
   line-height: 1.25;
   /*default:*/
   /*color: #313131;*/
-  color: rgba(137, 112, 118, 1);
+  /*color: rgba(137, 112, 118, 1);*/
+  color: rgba(54, 54, 54, 1);
   text-rendering: optimizeLegibility;
 
   /* Ensure long words do not overflow into content. */
@@ -841,13 +844,15 @@ a.hero-cta-alt:hover {
 
 .portrait-title h2 {
   /*added font*/
-  font-family: 'Quantico', sans-serif;
-  font-size: 1.25em;
+  /*font-family: 'Quantico', sans-serif;*/
+  font-family: 'Play', sans-serif;
+  font-size: 1.75em;
   font-weight: 300;
   /*default color:*/
   /*color: #000000;*/
   /*custom color:*/
-  color: rgba(215, 0, 38, 0.9);
+  /*color: rgba(215, 0, 38, 0.9);*/
+  color: rgba(54, 54, 54, 1);
   margin: 20px 0 10px 0;
 }
 
@@ -864,9 +869,9 @@ a.hero-cta-alt:hover {
 .portrait-title h3 {
   /*default size:*/
   /*font-size: 1rem;*/
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   /*font-family: 'Ubuntu', sans-serif;*/
-  font-family: 'Play', sans-serif;
+  font-family: 'Lato', sans-serif;
   /* default */
   /*font-weight: 300;*/
   font-weight: normal;
@@ -875,7 +880,7 @@ a.hero-cta-alt:hover {
   /*custom:*/
   /*color: rgba(68, 76, 92, 0.75);*/ 
   /*color: rgba(215, 0, 38, 0.75);*/
-  color: rgba(67, 75, 91, 0.90) !important;
+  color: rgba(54, 54, 54, 0.8) !important;
   margin: 0px 0 0px 0;
   /*weird glow animation stuff*/
   /*text-shadow: 2px 2px 8px rgba(245, 37, 73, 1);*/
@@ -888,11 +893,12 @@ a.hero-cta-alt:hover {
 
 /* make organization font-face different than role */
 #profile .portrait-title span {
-  font-size: 0.9rem;
-  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
   /*default color*/
   /*color: rgba(68, 76, 92, 0.75);*/
-  color:  rgba(67, 75, 91, 0.80);
+  color: rgba(54, 54, 54, 0.8);
   /*weird glow animation stuff*/
   /*text-shadow: none;*/
   /*-webkit-text-stroke: 0px;*/
@@ -971,7 +977,8 @@ ul.network-icon {
 /*hardcode big icon color*/
 .big-icon {
   /*color: rgba(215, 0, 38, 1);*/
-  color: rgba(215, 0, 38, 0.8);
+  /*color: rgba(215, 0, 38, 0.8);*/
+  color: rgba(54, 54, 54, 0.8);
 }
 
 /*#about.home-section.wg-about h1 {
@@ -979,36 +986,52 @@ ul.network-icon {
 /*}*/
 
 #about.home-section.wg-about h3 {
-  color: rgba(215, 0, 38, 0.6);
+  /*color: rgba(215, 0, 38, 0.6);*/
+  color: rgba(54, 54, 54, 1);
 }
 
 #about.home-section.wg-about p {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
   text-align: justify;
+  color: rgba(31, 31, 31, 1) !important;
 } 
 
 #about.home-section.wg-about p.course {
   text-align: left;
-  color: rgba(67, 75, 91, 0.7);
+  /*color: rgba(67, 75, 91, 0.7);*/
+  color: rgba(54, 54, 54, 1);
+  font-size: 0.9rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
 } 
 
 #about.home-section.wg-about p.institution {
   text-align: left;
+  color: rgba(54, 54, 54, 0.8);
+  font-size: 0.8rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
 } 
 
 #about #profile .big-icon i:focus, i:hover{
-  color: rgba(215, 0, 38, 1);
+  color: rgba(54, 54, 54, 1);
   /*animation: pulse 0.5s infinite;*/
 }
 
 /* example selector about widget link idle property*/
 #about.home-section.wg-about a {
-  color: rgba(255, 0, 56, 0.75);
+  /*color: rgba(255, 0, 56, 0.75);*/
+  font-family: 'Lato', sans-serif;
+  color: rgba(54, 54, 54, 0.6);
 }
 
 /* example selector about widget link hover property*/
 #about.home-section.wg-about a:hover, a:focus {
   font-weight: bold;
-  color: rgba(255, 0, 56, 1);
+  /*color: rgba(255, 0, 56, 1);*/
+  font-family: 'Lato', sans-serif;
+  color: rgba(54, 54, 54, 1);
   text-decoration: none;
 }
 
@@ -1021,9 +1044,11 @@ ul.ul-interests li {
   margin-left: -1.5em;
   list-style-type: square;
   font-size: 0.9rem;
-  color: rgba(67, 75, 91, 0.7);
-  font-weight: bold;
-  text-align: justify;
+  /*color: rgba(67, 75, 91, 0.7);*/
+  font-weight: normal;
+  font-family: 'Lato', sans-serif;
+  color: rgba(54, 54, 54, 1);
+  text-align: left;
 }
 
 ul.ul-edu {
@@ -1037,11 +1062,13 @@ ul.ul-edu li {
 
 /* change color of education icons:*/
 ul.ul-edu.fa-ul i.fa-li.fas.fa-graduation-cap::before {
-  color: rgba(192, 178, 181, 1);
+  /*color: rgba(192, 178, 181, 1);*/
+  color: rgba(54, 54, 54, 0.6);
 }
 
 ul.ul-edu.fa-ul i.fa-li.fas.fa-graduation-cap {
-  color: rgba(192, 178, 181, 1);
+  /*color: rgba(192, 178, 181, 1);*/
+  color: rgba(54, 54, 54, 0.6);
 }
 
 .dark ul.ul-edu.fa-ul i.fa-li.fas.fa-graduation-cap::before {
@@ -1147,7 +1174,8 @@ ul.share li i {
 }
 
 ul.share li a {
-  background-color: rgba(214, 0, 39, 0.7);
+  /*background-color: rgba(214, 0, 39, 0.7);*/
+  background-color: rgba(54, 54, 54, 0.6);
   display: block;
   border-radius: 50%;
   text-decoration: none !important;
@@ -1156,21 +1184,24 @@ ul.share li a {
 
 ul.share li:hover i {
   transform: scale(1);
-  background-color: rgba(214, 0, 39, 1);
+  /*background-color: rgba(214, 0, 39, 1);*/
+  background-color: rgba(54, 54, 54, 1);
   border-radius: 50%;
   display: block;
 }
 
 ul.share li:focus i {
   transform: scale(1);
-  background-color: rgba(214, 0, 39, 1);
+  /*background-color: rgba(214, 0, 39, 1);*/
+  background-color: rgba(54, 54, 54, 1);
   border-radius: 50%;
   display: block;
 }
 
 ul.share li:active i {
   transform: scale(1);
-  background-color: rgba(214, 0, 39, 1);
+  /*background-color: rgba(214, 0, 39, 1);*/
+  background-color: rgba(54, 54, 54, 1);
   border-radius: 50%;
   display: block;
 }
@@ -1635,7 +1666,8 @@ article .article-metadata {
  **************************************************/
 
 .pub {
-  background-color: hsla(50, 17%, 95%, 1);
+  /*background-color: hsla(50, 17%, 95%, 1);*/
+  background-color: hsla(0, 0%, 96%, 1);
 }
 
 .pub h1[itemprop="name"] {
@@ -1644,47 +1676,53 @@ article .article-metadata {
 
 .pub div.col-12.col-md-3.pub-row-heading {
   font-family: 'Play', sans-serif;
-  color: #897076;
+  color: rgba(54, 54, 54, 0.6);
 }
 
 .pub div.col-12.col-md-9 {
   font-family: 'Play', sans-serif;
-  color: rgba(215, 0, 38, 0.7);
+  /*color: rgba(215, 0, 38, 0.7);*/
+  color: rgba(54, 54, 54, 1);
   font-weight: bold;
 }
 
 .pub div.col-12.col-md-9 a {
   font-family: 'Play', sans-serif;
-  color: rgba(215, 0, 38, 0.7);
+  /*color: rgba(215, 0, 38, 0.7);*/
+  color: rgba(54, 54, 54, 0.6);
   font-weight: bold;
 }
 
 .pub div.col-12.col-md-9 a:hover {
   font-family: 'Play', sans-serif;
-  color: rgba(215, 0, 38, 1);
+  /*color: rgba(215, 0, 38, 1);*/
+  color: rgba(54, 54, 54, 1);
   font-weight: bold;
   text-decoration: none;
 }
 
 .pub div.col-12.col-md-9 a:focus {
   font-family: 'Play', sans-serif;
-  color: rgba(215, 0, 38, 1);
+  /*color: rgba(215, 0, 38, 1);*/
+  color: rgba(54, 54, 54, 1);
   font-weight: bold;
   text-decoration: none;
 }
 
 .pub div.col-12.col-md-9 a:active {
   font-family: 'Play', sans-serif;
-  color: rgba(215, 0, 38, 1);
+  /*color: rgba(215, 0, 38, 1);*/
+  color: rgba(54, 54, 54, 1);
   font-weight: bold;
   text-decoration: none;
 }
 
 .pub div.btn-links .btn {
+  color: rgba(54, 54, 54, 0.6);
   font-size: 0.8rem;
   font-weight: bold;
   border: 2px solid;
-  font-family: 'Play', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 /*.pub i {
@@ -1695,89 +1733,95 @@ article .article-metadata {
 .pub div.btn-links .btn:hover {
   font-size: 0.8rem;
   font-weight: bold;
-  border: 2px solid hsla(50, 17%, 93%, 1);
-  color: hsla(50, 17%, 93%, 1);
-  background: rgba(215, 0, 38, 1);
-  box-shadow: 0 0.075rem 0.5rem 0 rgba(215, 0, 38, 1);
-  font-family: 'Play', sans-serif;
+  border: 2px solid hsla(0, 0%, 95%, 1);
+  color: hsla(0, 0%, 95%, 1);
+  background: rgba(54, 54, 54, 0.6);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 0.6);
+  font-family: 'Lato', sans-serif;
 }
 
 .pub div.btn-links .btn:focus {
   font-size: 0.8rem;
   font-weight: bold;
-  border: 2px solid hsla(50, 17%, 93%, 1);
-  color: hsla(50, 17%, 93%, 1);
-  background: rgba(215, 0, 38, 1);
-  box-shadow: 0 0.075rem 0.5rem 0 rgba(215, 0, 38, 1);
-  font-family: 'Play', sans-serif;
+  border: 2px solid hsla(0, 0%, 95%, 1);
+  color: hsla(0, 0%, 95%, 1);
+  background: rgba(54, 54, 54, 0.6);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 0.6);
+  font-family: 'Lato', sans-serif;
 }
 
 .pub div.btn-links .btn:active {
   font-size: 0.8rem;
   font-weight: bold;
-  border: 2px solid hsla(50, 17%, 93%, 1);
-  color: hsla(50, 17%, 93%, 1);
-  background: rgba(215, 0, 38, 1);
-  box-shadow: 0 0.075rem 0.5rem 0 rgba(215, 0, 38, 1);
-  font-family: 'Play', sans-serif;
+  border: 2px solid hsla(0, 0%, 95%, 1);
+  color: hsla(0, 0%, 95%, 1);
+  background: rgba(54, 54, 54, 0.6);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 0.6);
+  font-family: 'Lato', sans-serif;
 }
 
 #talks_1.home-section.wg-pages a {
-  color: rgba(215, 0, 38, 0.7);
-  font-size: 22.5px;
+  /*color: rgba(215, 0, 38, 0.7);*/
+  color: rgba(54, 54, 54, 0.6);
+  font-size: 25px;
   font-weight: bold;
   font-family: 'Play', sans-serif;
 }
 
 #talks_1.home-section.wg-pages a:hover {
-  color: rgba(215, 0, 38, 1);
-  font-size: 22.5px;
+  /*color: rgba(215, 0, 38, 1);*/
+  color: rgba(54, 54, 54, 1);
+  font-size: 25px;
   font-weight: bold;
   font-family: 'Play', sans-serif;
 }
 
 #talks_1.home-section.wg-pages a:focus {
-  color: rgba(215, 0, 38, 1);
-  font-size: 22.5px;
+  /*color: rgba(215, 0, 38, 1);*/
+  color: rgba(54, 54, 54, 1);
+  font-size: 25px;
   font-weight: bold;
   font-family: 'Play', sans-serif;
 }
 
 #talks_1.home-section.wg-pages a:active {
-  color: rgba(215, 0, 38, 1);
-  font-size: 22.5px;
+  /*color: rgba(215, 0, 38, 1);*/
+  color: rgba(54, 54, 54, 1);
+  font-size: 25px;
   font-weight: bold;
   font-family: 'Play', sans-serif;
 }
 
 #talks_1.home-section.wg-pages div.article-style {
-  font-family: 'Play', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 #talks_1.home-section.wg-pages div.stream-meta.article-metadata span[itemprop = 'event'] a {
-  font-family: 'Play', sans-serif;
-  color: rgba(137, 112, 118, 0.7);
+  font-family: 'Lato', sans-serif;
+  /*color: rgba(137, 112, 118, 0.7);*/
+  color: rgba(54, 54, 54, 0.6);
   font-size: 0.8rem;
   font-weight: bold;
 }
 
 #talks_1.home-section.wg-pages div.stream-meta.article-metadata span[itemprop = 'event'] a:hover, a:focus {
-  font-family: 'Play', sans-serif;
-  color: rgba(137, 112, 118, 1);
+  font-family: 'Lato', sans-serif;
+  /*color: rgba(137, 112, 118, 1);*/
+  color: rgba(54, 54, 54, 1);
   font-size: 0.8rem;
   font-weight: bold;
   text-decoration: none;
 }
 
 #talks_1.home-section.wg-pages div.stream-meta.article-metadata span[itemprop = 'startDate']  {
-  font-family: 'Play', sans-serif;
-  color: rgba(137, 112, 118, 0.7);
+  font-family: 'Lato', sans-serif;
+  color: rgba(54, 54, 54, 0.6);
   font-size: 0.8rem;
 }
 
 #talks_1.home-section.wg-pages div.stream-meta.article-metadata span[itemprop = 'location']  {
-  font-family: 'Play', sans-serif;
-  color: rgba(137, 112, 118, 0.7);
+  font-family: 'Lato', sans-serif;
+  color: rgba(54, 54, 54, 0.6);
   font-size: 0.8rem;
 }
 
@@ -1785,37 +1829,37 @@ article .article-metadata {
   font-size: 0.8rem;
   font-weight: bold;
   border: 2px solid;
-  font-family: 'Play', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 #talks_1.home-section.wg-pages div.btn-links .btn:hover {
   font-size: 0.8rem;
   font-weight: bold;
-  border: 2px solid hsla(50, 17%, 93%, 1);
-  color: hsla(50, 17%, 93%, 1);
-  background: rgba(215, 0, 38, 1);
-  box-shadow: 0 0.075rem 0.5rem 0 rgba(215, 0, 38, 1);
-  font-family: 'Play', sans-serif;
+  border: 2px solid hsla(0, 0%, 95%, 1);
+  color: hsla(0, 0%, 95%, 1);
+  background: rgba(54, 54, 54, 0.6);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 0.6);
+  font-family: 'Lato', sans-serif;
 }
 
 #talks_1.home-section.wg-pages div.btn-links .btn:focus {
   font-size: 0.8rem;
   font-weight: bold;
-  border: 2px solid hsla(50, 17%, 93%, 1);
-  color: hsla(50, 17%, 93%, 1);
-  background: rgba(215, 0, 38, 1);
-  box-shadow: 0 0.075rem 0.5rem 0 rgba(215, 0, 38, 1);
-  font-family: 'Play', sans-serif;
+  border: 2px solid hsla(0, 0%, 95%, 1);
+  color: hsla(0, 0%, 95%, 1);
+  background: rgba(54, 54, 54, 0.6);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 0.6);
+  font-family: 'Lato', sans-serif;
 }
 
 #talks_1.home-section.wg-pages div.btn-links .btn:active{
   font-size: 0.8rem;
   font-weight: bold;
-  border: 2px solid hsla(50, 17%, 93%, 1);
-  color: hsla(50, 17%, 93%, 1);
-  background: rgba(215, 0, 38, 1);
-  box-shadow: 0 0.075rem 0.5rem 0 rgba(215, 0, 38, 1);
-  font-family: 'Play', sans-serif;
+  border: 2px solid hsla(0, 0%, 95%, 1);
+  color: hsla(0, 0%, 95%, 1);
+  background: rgba(54, 54, 54, 0.6);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 0.6);
+  font-family: 'Lato', sans-serif;
 }
 
 /*************************************************
@@ -2237,12 +2281,16 @@ article .article-metadata {
  **************************************************/
 
 .contact-widget a {
-  color: rgba(255, 0, 56, 0.75);
+  /*color: rgba(255, 0, 56, 0.75);*/
+  color: rgba(54, 54, 54, 0.6);
+  font-family: 'Play', sans-serif;
 }
 
 .contact-widget a:hover, a:focus {
   font-weight: bold;
-  color: rgba(255, 0, 56, 1);
+  /*color: rgba(255, 0, 56, 1);*/
+  color: rgba(54, 54, 54, 1);
+  font-family: 'Play', sans-serif;
   text-decoration: none;
 }
 
@@ -2287,11 +2335,13 @@ article .article-metadata {
 }
 
 .contact-widget i {
-  color: rgba(192, 178, 181, 0.75);
+  /*color: rgba(192, 178, 181, 0.75);*/
+  color: rgba(54, 54, 54, 1);
 } 
 
 .contact-widget i:hover, i:focus {
-  color: rgba(192, 178, 181, 1);
+  /*color: rgba(192, 178, 181, 1);*/
+  color: rgba(54, 54, 54, 1);
 } 
 
 .dark .contact-widget i {
@@ -2343,11 +2393,13 @@ footer a#back_to_top i {
 }
 
 .site-footer a {
-  color: rgba(255, 0, 56, 0.75);
+  /*color: rgba(255, 0, 56, 0.75);*/
+  color: rgba(54, 54, 54, 0.6);
 }
 
 .site-footer a:hover, a:focus {
-  color: rgba(255, 0, 56, 1);
+  /*color: rgba(255, 0, 56, 1);*/
+  color: rgba(54, 54, 54, 1);
   text-decoration: none;
   font-weight: bold;
 }
@@ -2537,10 +2589,12 @@ a.badge:hover {
   /*default:*/
   /*background: {{ .Get "menu_primary" }} !important;*/
   /*custom light:*/
-  background-color: rgba(192, 178, 181, 1) !important;
+  /*background-color: rgba(192, 178, 181, 1) !important;*/
+  background-color: rgba(245, 245, 245, 1) !important;
   /*default:*/
   /*box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11);*/
-  box-shadow: 0 0.075rem 0.5rem 0 rgba(215, 0, 38, 1);
+  /*box-shadow: 0 0.075rem 0.5rem 0 rgba(215, 0, 38, 1);*/
+  box-shadow: 0 0.075rem 0.05rem 0.025rem rgba(54, 54, 54, 1);
 }
 
 .navbar-light .navbar-toggler {
@@ -2548,7 +2602,8 @@ a.badge:hover {
 }
 
 .navbar-toggler {
-  color: {{ .Get "menu_text" }} !important;
+  /*color: {{ .Get "menu_text" }} !important;*/
+  color: rgba(54, 54, 54, 0.8) !important;
 }
 
 .dark .navbar-toggler {
@@ -2574,7 +2629,7 @@ a.badge:hover {
 
 .navbar-light .navbar-toggler:focus,
 .navbar-light .navbar-toggler:hover {
-  color: rgba(215, 0, 38, 1) !important;
+  color: rgba(54, 54, 54, 1) !important;
   background-color: transparent;
 }
 
@@ -2583,7 +2638,12 @@ nav#navbar-main li.nav-item {
   /*font-size: {{ .Get "font_size_small" }}px;*/
   font-size: 18px;
   font-weight: bold;
-  font-family: 'Quantico', sans-serif;
+  /*font-family: 'Quantico', sans-serif;*/
+  font-family: 'Play', sans-serif;
+}
+
+.navbar-light .navbar-nav>.nav-item>.nav-link {
+  font-size: 1rem;
 }
 
 .navbar-light .navbar-nav>.nav-item>.nav-link,
@@ -2594,18 +2654,19 @@ nav#navbar-main li.nav-item {
   transition: 0.2s ease;
   color: {{ .Get "menu_text" }};
   font-weight: 600;
+  font-family: 'Play', sans-serif;
 }
 
 .navbar-light .navbar-nav>.nav-item>.nav-link:focus {
   color: {{ .Get "menu_text" }};
   background-color: transparent;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .navbar-light .navbar-nav>.nav-item>.nav-link:hover {
   color: {{ .Get "menu_text_active" }};
   background-color: transparent;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .navbar-light .navbar-nav>li.nav-item>a.active,
@@ -2613,7 +2674,7 @@ nav#navbar-main li.nav-item {
 .navbar-light .navbar-nav>li.nav-item>a.active:hover {
   color: {{ .Get "menu_text_active" }};
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.2rem;
   background-color: transparent !important; /* Override Bootstrap. */
 }
 
@@ -2676,15 +2737,21 @@ nav#navbar-main li.nav-item {
   /*font-family: 'Zilla Slab Highlight', cursive;*/
   /*font-family: 'Cabin Sketch', cursive;*/
   /*font-family: 'Baloo Tamma', cursive;*/
-  font-family: 'Quantico', sans-serif;
-  font-weight: bold;
+  /*font-family: 'Quantico', sans-serif;*/
+  font-family: 'Play', sans-serif;
+  font-weight: normal;
   font-size: 1.75em;
-  color: {{ .Get "menu_title" }};
+  /*color: {{ .Get "menu_title" }};*/
+  color: rgba(54, 54, 54, 1);
 }
 
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
-  color: {{ .Get "menu_title" }};
+  /*color: {{ .Get "menu_title" }};*/
+  font-family: 'Play', sans-serif;
+  font-weight: bold;
+  font-size: 1.75em;
+  color: rgba(54, 54, 54, 1);
   background-color: transparent;
 }
 
@@ -2764,11 +2831,11 @@ nav#navbar-main li.nav-item {
 }
 
 .navbar-light i.fas.fa-moon {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(54, 54, 54, 0.6);
 }
 
 .navbar-light i.fas.fa-moon:hover {
-  color: rgba(255, 255, 255, 1);
+  color: rgba(54, 54, 54, 1);
 }
 
 .dark .navbar-light i.fas.fa-sun {
@@ -2780,11 +2847,11 @@ nav#navbar-main li.nav-item {
 }
 
 .navbar-light i.fas.fa-search {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(54, 54, 54, 0.6);
 }
 
 .navbar-light i.fas.fa-search:hover {
-  color: rgba(255, 255, 255, 1);
+  color: rgba(54, 54, 54, 1);
 }
 
 
