@@ -2391,7 +2391,7 @@ article .article-metadata {
   /*blueblack*/
   /*color: rgba(48, 50, 75, 0.75);*/
   /*color: rgba(70, 65, 63, 0.75);*/
-  color: rgba(245, 245, 245, 0.6) !important;
+  color: rgba(245, 245, 245, 1) !important;
 } 
 
 .dark .contact-widget i:hover, i:focus {
