@@ -2067,6 +2067,7 @@ article .article-metadata {
   font-weight: bold;
   border: 2px solid;
   font-family: 'Lato', sans-serif;
+  color: hsla(0, 0%, 96%, 1);
 }
 
 .dark #talks_1.home-section.wg-pages div.btn-links .btn:hover {
