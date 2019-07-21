@@ -1754,6 +1754,7 @@ article .article-metadata {
   font-weight: bold;
   border: 2px solid;
   font-family: 'Lato', sans-serif;
+  color: rgba(54, 54, 54, 1);
 }
 
 /*.pub i {
@@ -1766,8 +1767,8 @@ article .article-metadata {
   font-weight: bold;
   border: 2px solid hsla(0, 0%, 95%, 1);
   color: hsla(0, 0%, 95%, 1);
-  background: rgba(54, 54, 54, 0.6);
-  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 0.6);
+  background: rgba(54, 54, 54, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 1);
   font-family: 'Lato', sans-serif;
 }
 
@@ -1776,8 +1777,8 @@ article .article-metadata {
   font-weight: bold;
   border: 2px solid hsla(0, 0%, 95%, 1);
   color: hsla(0, 0%, 95%, 1);
-  background: rgba(54, 54, 54, 0.6);
-  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 0.6);
+  background: rgba(54, 54, 54, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 1);
   font-family: 'Lato', sans-serif;
 }
 
@@ -1786,8 +1787,8 @@ article .article-metadata {
   font-weight: bold;
   border: 2px solid hsla(0, 0%, 95%, 1);
   color: hsla(0, 0%, 95%, 1);
-  background: rgba(54, 54, 54, 0.6);
-  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 0.6);
+  background: rgba(54, 54, 54, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 1);
   font-family: 'Lato', sans-serif;
 }
 
@@ -1861,6 +1862,7 @@ article .article-metadata {
   font-weight: bold;
   border: 2px solid;
   font-family: 'Lato', sans-serif;
+  color: rgba(54, 54, 54, 1);
 }
 
 #talks_1.home-section.wg-pages div.btn-links .btn:hover {
@@ -1868,8 +1870,8 @@ article .article-metadata {
   font-weight: bold;
   border: 2px solid hsla(0, 0%, 95%, 1);
   color: hsla(0, 0%, 95%, 1);
-  background: rgba(54, 54, 54, 0.6);
-  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 0.6);
+  background: rgba(54, 54, 54, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 1);
   font-family: 'Lato', sans-serif;
 }
 
@@ -1878,8 +1880,8 @@ article .article-metadata {
   font-weight: bold;
   border: 2px solid hsla(0, 0%, 95%, 1);
   color: hsla(0, 0%, 95%, 1);
-  background: rgba(54, 54, 54, 0.6);
-  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 0.6);
+  background: rgba(54, 54, 54, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 1);
   font-family: 'Lato', sans-serif;
 }
 
@@ -1888,8 +1890,8 @@ article .article-metadata {
   font-weight: bold;
   border: 2px solid hsla(0, 0%, 95%, 1);
   color: hsla(0, 0%, 95%, 1);
-  background: rgba(54, 54, 54, 0.6);
-  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 0.6);
+  background: rgba(54, 54, 54, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 1);
   font-family: 'Lato', sans-serif;
 }
 
