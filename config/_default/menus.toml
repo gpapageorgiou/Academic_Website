@@ -12,6 +12,11 @@
   name = "Talks"
   url = "#talks_1"
   weight = 20
+  
+[[main]]
+  name = "Funware"
+  url = "#funware"
+  weight = 30
 
 #[[main]]
 #  name = "Posts"
