@@ -3725,3 +3725,66 @@ body.dark {
 .dark .btn.btn-primary.active {
   color: initial;
 }
+
+
+/*#-------------------------
+/* FUNWARE SECTION
+/*---------------------------*/
+
+#funware_2.home-section.wg-blank a {
+  font-family: 'Lato', sans-serif;
+  color: rgba(54, 54, 54, 0.6);
+}
+
+#funware_2.home-section.wg-blank a:hover {
+  font-weight: bold;
+  /*color: rgba(255, 0, 56, 1);*/
+  font-family: 'Lato', sans-serif;
+  color: rgba(54, 54, 54, 1);
+  text-decoration: none;
+}
+
+#funware_2.home-section.wg-blank a:focus {
+  font-weight: bold;
+  /*color: rgba(255, 0, 56, 1);*/
+  font-family: 'Lato', sans-serif;
+  color: rgba(54, 54, 54, 1);
+  text-decoration: none;
+}
+
+#funware_2.home-section.wg-blank a:active {
+  font-weight: bold;
+  /*color: rgba(255, 0, 56, 1);*/
+  font-family: 'Lato', sans-serif;
+  color: rgba(54, 54, 54, 1);
+  text-decoration: none;
+}
+
+.dark #funware_2.home-section.wg-blank a {
+  font-family: 'Lato', sans-serif;
+  color: rgba(245, 245, 245, 0.6);
+}
+
+.dark #funware_2.home-section.wg-blank a:hover {
+  font-weight: bold;
+  /*color: rgba(255, 0, 56, 1);*/
+  font-family: 'Lato', sans-serif;
+  color: rgba(245, 245, 245, 1);
+  text-decoration: none;
+}
+
+.dark #funware_2.home-section.wg-blank a:focus {
+  font-weight: bold;
+  /*color: rgba(255, 0, 56, 1);*/
+  font-family: 'Lato', sans-serif;
+  color: rgba(245, 245, 245, 1);
+  text-decoration: none;
+}
+
+.dark #funware_2.home-section.wg-blank a:active {
+  font-weight: bold;
+  /*color: rgba(255, 0, 56, 1);*/
+  font-family: 'Lato', sans-serif;
+  color: rgba(245, 245, 245, 1);
+  text-decoration: none;
+}
