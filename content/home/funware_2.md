@@ -47,4 +47,4 @@ subtitle = ""
 [GitHub](https://github.com/gpapageorgiou/rQuote) | 
 [website](https://gpapageorgiou.github.io/rQuote/)
 
-Random wisdom in quotes.
+<span style = "font-family: 'Fredericka the Great', cursive; font-size: 26px;">&ldquo;</span> <span style = ""> Random wisdom in curly quotes</span> <span style = "font-family: 'Fredericka the Great', cursive; font-size: 26px;">&rdquo;</span>
