@@ -3916,6 +3916,21 @@ body.dark {
   text-decoration: none;
 }
 
+/*li_compact pub*/
+#featured_1.home-section.wg-featured div.stream-meta.article-metadata div[itemprop = 'publi'] {
+  font-family: 'Lato', sans-serif;
+  color: rgba(54, 54, 54, 1);
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.dark #featured_1.home-section.wg-featured div.stream-meta.article-metadata div[itemprop = 'publi'] {
+  font-family: 'Lato', sans-serif;
+  color: rgba(245, 245, 245, 1);
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
 /* --------------------------
 /* .dark Featured
 /*----------------------------*/
@@ -4048,3 +4063,6 @@ div.article-widget ul li a:hover {
   font-size: 1.2rem !important;
   font-weight: bold !important;
 }
+
+
+
