@@ -1493,17 +1493,45 @@ article .article-metadata {
   line-height: 30px; /* Match share bar line height. */
 }
 
-.article-metadata a {
+/*.article-metadata a {
   color: rgba(0,0,0,.54);
-}
+}*/
 
-.dark .article-metadata a {
-  color: rgba(255,255,255,0.54);
+.article-metadata a {
+  font-family: 'Lato', sans-serif;
+  /*color: rgba(137, 112, 118, 0.7);*/
+  color: rgba(54, 54, 54, 0.6);
+  font-size: 0.8rem;
+  font-weight: normal;
 }
 
 .article-metadata a:hover {
-  color: {{ .Get "primary" }};
+  font-family: 'Lato', sans-serif;
+  /*color: rgba(137, 112, 118, 0.7);*/
+  color: rgba(54, 54, 54, 1);
+  font-size: 0.8rem;
+  font-weight: normal;
 }
+
+.dark .article-metadata a {
+  font-family: 'Lato', sans-serif;
+  /*color: rgba(137, 112, 118, 0.7);*/
+  color: rgba(245, 245, 245, 0.6);
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+.dark .article-metadata a:hover {
+  font-family: 'Lato', sans-serif;
+  /*color: rgba(137, 112, 118, 0.7);*/
+  color: rgba(245, 245, 245, 1);
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+/*.article-metadata a:hover {
+  /*color: {{ .Get "primary" }};
+}*/
 
 .middot-divider {
   padding-right: .45em;
@@ -3985,4 +4013,38 @@ body.dark {
   font-size: 0.8rem;
   font-weight: bold;
   text-decoration: none;
+}
+
+/*--------------------------------
+/* about.pt-5 author results appearance
+/*----------------------------------*/
+
+div.article-widget ul li a {
+  font-family: 'Lato', sans-serif !important;
+  /*color: rgba(137, 112, 118, 0.7);*/
+  color: rgba(54, 54, 54, 0.6) !important;
+  font-size: 1.2rem !important;
+  font-weight: normal !important;
+}
+
+div.article-widget ul li a:hover {
+  font-family: 'Lato', sans-serif !important;
+  /*color: rgba(137, 112, 118, 0.7);*/
+  color: rgba(54, 54, 54, 1) !important;
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+}
+
+.dark div.article-widget ul li a {
+  font-family: 'Lato', sans-serif !important;
+  color: rgba(245, 245, 245, 0.6) !important;
+  font-size: 1.2rem !important;
+  font-weight: normal !important;
+}
+
+.dark div.article-widget ul li a:hover {
+  font-family: 'Lato', sans-serif !important;
+  color: rgba(245, 245, 245, 1) !important;
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
 }
