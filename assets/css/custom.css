@@ -1762,102 +1762,6 @@ article .article-metadata {
  * Talks_1
  **************************************************/
 
-.pub {
-  /*background-color: hsla(50, 17%, 95%, 1);*/
-  background-color: hsla(0, 0%, 96%, 1);
-}
-
-.pub h1[itemprop="name"] {
-  font-size: 34px;
-}
-
-.pub div.col-12.col-md-3.pub-row-heading {
-  font-family: 'Play', sans-serif;
-  color: rgba(54, 54, 54, 0.6);
-}
-
-.pub div.col-12.col-md-9 {
-  font-family: 'Play', sans-serif;
-  /*color: rgba(215, 0, 38, 0.7);*/
-  color: rgba(54, 54, 54, 1);
-  font-weight: bold;
-}
-
-.pub div.col-12.col-md-9 a {
-  font-family: 'Play', sans-serif;
-  /*color: rgba(215, 0, 38, 0.7);*/
-  color: rgba(54, 54, 54, 0.6);
-  font-weight: bold;
-}
-
-.pub div.col-12.col-md-9 a:hover {
-  font-family: 'Play', sans-serif;
-  /*color: rgba(215, 0, 38, 1);*/
-  color: rgba(54, 54, 54, 1);
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.pub div.col-12.col-md-9 a:focus {
-  font-family: 'Play', sans-serif;
-  /*color: rgba(215, 0, 38, 1);*/
-  color: rgba(54, 54, 54, 1);
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.pub div.col-12.col-md-9 a:active {
-  font-family: 'Play', sans-serif;
-  /*color: rgba(215, 0, 38, 1);*/
-  color: rgba(54, 54, 54, 1);
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.pub div.btn-links .btn {
-  color: rgba(54, 54, 54, 0.6);
-  font-size: 0.8rem;
-  font-weight: bold;
-  border: 2px solid;
-  font-family: 'Lato', sans-serif;
-  color: rgba(54, 54, 54, 1);
-}
-
-/*.pub i {
-  /*background-color: rgba(215, 0, 38, 1);
-}*/
-
-
-.pub div.btn-links .btn:hover {
-  font-size: 0.8rem;
-  font-weight: bold;
-  border: 2px solid hsla(0, 0%, 95%, 1);
-  color: hsla(0, 0%, 95%, 1);
-  background: rgba(54, 54, 54, 1);
-  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 1);
-  font-family: 'Lato', sans-serif;
-}
-
-.pub div.btn-links .btn:focus {
-  font-size: 0.8rem;
-  font-weight: bold;
-  border: 2px solid hsla(0, 0%, 95%, 1);
-  color: hsla(0, 0%, 95%, 1);
-  background: rgba(54, 54, 54, 1);
-  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 1);
-  font-family: 'Lato', sans-serif;
-}
-
-.pub div.btn-links .btn:active {
-  font-size: 0.8rem;
-  font-weight: bold;
-  border: 2px solid hsla(0, 0%, 95%, 1);
-  color: hsla(0, 0%, 95%, 1);
-  background: rgba(54, 54, 54, 1);
-  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 1);
-  font-family: 'Lato', sans-serif;
-}
-
 #talks_1.home-section.wg-pages a {
   /*color: rgba(215, 0, 38, 0.7);*/
   color: rgba(54, 54, 54, 0.6);
@@ -1964,100 +1868,6 @@ article .article-metadata {
 /*************************************************
  * Dark Talks_1
  **************************************************/
-
-.dark .pub {
-  background-color: hsla(0, 0%, 21%, 1);
-}
-
-.dark .pub h1[itemprop="name"] {
-  font-size: 34px;
-}
-
-.dark .pub div.col-12.col-md-3.pub-row-heading {
-  font-family: 'Play', sans-serif;
-  color: rgba(245, 245, 245, 1);
-}
-
-.dark .pub div.col-12.col-md-9 {
-  font-family: 'Play', sans-serif;
-  /*color: rgba(249, 211, 66, 0.75);*/
-  color: rgba(245, 245, 245, 1);
-  font-weight: bold;
-}
-
-.dark .pub div.col-12.col-md-9 a {
-  font-family: 'Play', sans-serif;
-  /*color: rgba(249, 211, 66, 0.75);*/
-  color: rgba(245, 245, 245, 0.6);
-  font-weight: bold;
-}
-
-.dark .pub div.col-12.col-md-9 a:hover {
-  font-family: 'Play', sans-serif;
-  /*color: rgba(249, 211, 66, 1);*/
-  color: rgba(245, 245, 245, 1);
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.dark .pub div.col-12.col-md-9 a:focus {
-  font-family: 'Play', sans-serif;
-  /*color: rgba(249, 211, 66, 1);*/
-  color: rgba(245, 245, 245, 1);
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.dark .pub div.col-12.col-md-9 a:active {
-  font-family: 'Play', sans-serif;
-  /*color: rgba(249, 211, 66, 1);*/
-  color: rgba(245, 245, 245, 1);
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.dark .pub div.btn-links .btn {
-  font-size: 0.8rem;
-  font-weight: bold;
-  border: 2px solid;
-  font-family: 'Lato', sans-serif;
-  color: rgba(245, 245, 245, 1);
-}
-
-/*.dark .pub i {
-  /*background-color: rgba(249, 211, 66, 1);
-}*/
-
-
-.dark .pub div.btn-links .btn:hover {
-  font-size: 0.8rem;
-  font-weight: bold;
-  border: 2px solid hsla(0, 0%, 21%, 1);
-  color: hsla(0, 0%, 21%, 1);
-  background: hsla(0, 0%, 96%, 1);
-  box-shadow: 0 0.075rem 0.5rem 0 hsla(0, 0%, 96%, 1);
-  font-family: 'Lato', sans-serif;
-}
-
-.dark .pub div.btn-links .btn:focus {
-  font-size: 0.8rem;
-  font-weight: bold;
-  border: 2px solid hsla(0, 0%, 21%, 1);
-  color: hsla(0, 0%, 21%, 1);
-  background: hsla(0, 0%, 96%, 1);
-  box-shadow: 0 0.075rem 0.5rem 0 hsla(0, 0%, 96%, 1);
-  font-family: 'Lato', sans-serif;
-}
-
-.dark .pub div.btn-links .btn:active {
-  font-size: 0.8rem;
-  font-weight: bold;
-  border: 2px solid hsla(0, 0%, 21%, 1);
-  color: hsla(0, 0%, 21%, 1);
-  background: hsla(0, 0%, 96%, 1);
-  box-shadow: 0 0.075rem 0.5rem 0 hsla(0, 0%, 96%, 1);
-  font-family: 'Lato', sans-serif;
-}
 
 .dark #talks_1.home-section.wg-pages div.article-style {
   /*color: rgba(255, 255, 250, 0.9);*/
@@ -3786,5 +3596,393 @@ body.dark {
   /*color: rgba(255, 0, 56, 1);*/
   font-family: 'Lato', sans-serif;
   color: rgba(245, 245, 245, 1);
+  text-decoration: none;
+}
+
+/* --------------------------
+/* .pub and .dark .pub
+/*----------------------------*/
+
+.pub {
+  /*background-color: hsla(50, 17%, 95%, 1);*/
+  background-color: hsla(0, 0%, 96%, 1);
+}
+
+.pub h1[itemprop="name"] {
+  font-size: 34px;
+}
+
+.pub div.col-12.col-md-3.pub-row-heading {
+  font-family: 'Play', sans-serif;
+  color: rgba(54, 54, 54, 0.6);
+}
+
+.pub div.col-12.col-md-9 {
+  font-family: 'Play', sans-serif;
+  /*color: rgba(215, 0, 38, 0.7);*/
+  color: rgba(54, 54, 54, 1);
+  font-weight: bold;
+}
+
+.pub div.col-12.col-md-9 a {
+  font-family: 'Play', sans-serif;
+  /*color: rgba(215, 0, 38, 0.7);*/
+  color: rgba(54, 54, 54, 0.6);
+  font-weight: bold;
+}
+
+.pub div.col-12.col-md-9 a:hover {
+  font-family: 'Play', sans-serif;
+  /*color: rgba(215, 0, 38, 1);*/
+  color: rgba(54, 54, 54, 1);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.pub div.col-12.col-md-9 a:focus {
+  font-family: 'Play', sans-serif;
+  /*color: rgba(215, 0, 38, 1);*/
+  color: rgba(54, 54, 54, 1);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.pub div.col-12.col-md-9 a:active {
+  font-family: 'Play', sans-serif;
+  /*color: rgba(215, 0, 38, 1);*/
+  color: rgba(54, 54, 54, 1);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.pub div.btn-links .btn {
+  color: rgba(54, 54, 54, 0.6);
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid;
+  font-family: 'Lato', sans-serif;
+  color: rgba(54, 54, 54, 1);
+}
+
+/*.pub i {
+  /*background-color: rgba(215, 0, 38, 1);
+}*/
+
+
+.pub div.btn-links .btn:hover {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(0, 0%, 95%, 1);
+  color: hsla(0, 0%, 95%, 1);
+  background: rgba(54, 54, 54, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 1);
+  font-family: 'Lato', sans-serif;
+}
+
+.pub div.btn-links .btn:focus {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(0, 0%, 95%, 1);
+  color: hsla(0, 0%, 95%, 1);
+  background: rgba(54, 54, 54, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 1);
+  font-family: 'Lato', sans-serif;
+}
+
+.pub div.btn-links .btn:active {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(0, 0%, 95%, 1);
+  color: hsla(0, 0%, 95%, 1);
+  background: rgba(54, 54, 54, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 1);
+  font-family: 'Lato', sans-serif;
+}
+
+.dark .pub {
+  background-color: hsla(0, 0%, 21%, 1);
+}
+
+.dark .pub h1[itemprop="name"] {
+  font-size: 34px;
+}
+
+.dark .pub div.col-12.col-md-3.pub-row-heading {
+  font-family: 'Play', sans-serif;
+  color: rgba(245, 245, 245, 1);
+}
+
+.dark .pub div.col-12.col-md-9 {
+  font-family: 'Play', sans-serif;
+  /*color: rgba(249, 211, 66, 0.75);*/
+  color: rgba(245, 245, 245, 1);
+  font-weight: bold;
+}
+
+.dark .pub div.col-12.col-md-9 a {
+  font-family: 'Play', sans-serif;
+  /*color: rgba(249, 211, 66, 0.75);*/
+  color: rgba(245, 245, 245, 0.6);
+  font-weight: bold;
+}
+
+.dark .pub div.col-12.col-md-9 a:hover {
+  font-family: 'Play', sans-serif;
+  /*color: rgba(249, 211, 66, 1);*/
+  color: rgba(245, 245, 245, 1);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.dark .pub div.col-12.col-md-9 a:focus {
+  font-family: 'Play', sans-serif;
+  /*color: rgba(249, 211, 66, 1);*/
+  color: rgba(245, 245, 245, 1);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.dark .pub div.col-12.col-md-9 a:active {
+  font-family: 'Play', sans-serif;
+  /*color: rgba(249, 211, 66, 1);*/
+  color: rgba(245, 245, 245, 1);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.dark .pub div.btn-links .btn {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid;
+  font-family: 'Lato', sans-serif;
+  color: rgba(245, 245, 245, 1);
+}
+
+/*.dark .pub i {
+  /*background-color: rgba(249, 211, 66, 1);
+}*/
+
+
+.dark .pub div.btn-links .btn:hover {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(0, 0%, 21%, 1);
+  color: hsla(0, 0%, 21%, 1);
+  background: hsla(0, 0%, 96%, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 hsla(0, 0%, 96%, 1);
+  font-family: 'Lato', sans-serif;
+}
+
+.dark .pub div.btn-links .btn:focus {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(0, 0%, 21%, 1);
+  color: hsla(0, 0%, 21%, 1);
+  background: hsla(0, 0%, 96%, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 hsla(0, 0%, 96%, 1);
+  font-family: 'Lato', sans-serif;
+}
+
+.dark .pub div.btn-links .btn:active {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(0, 0%, 21%, 1);
+  color: hsla(0, 0%, 21%, 1);
+  background: hsla(0, 0%, 96%, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 hsla(0, 0%, 96%, 1);
+  font-family: 'Lato', sans-serif;
+}
+
+/* --------------------------
+/* Featured
+/*----------------------------*/
+
+#featured_1.home-section.wg-featured a {
+  /*color: rgba(215, 0, 38, 0.7);*/
+  color: rgba(54, 54, 54, 0.6);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Play', sans-serif;
+}
+
+#featured_1.home-section.wg-featured a:hover {
+  /*color: rgba(215, 0, 38, 1);*/
+  color: rgba(54, 54, 54, 1);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Play', sans-serif;
+}
+
+#featured_1.home-section.wg-featured a:focus {
+  /*color: rgba(215, 0, 38, 1);*/
+  color: rgba(54, 54, 54, 1);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Play', sans-serif;
+}
+
+#featured_1.home-section.wg-featured a:active {
+  /*color: rgba(215, 0, 38, 1);*/
+  color: rgba(54, 54, 54, 1);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Play', sans-serif;
+}
+
+#featured_1.home-section.wg-featured div.article-style {
+  font-family: 'Lato', sans-serif;
+}
+
+#featured_1.home-section.wg-featured div.btn-links .btn {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid;
+  font-family: 'Lato', sans-serif;
+  color: rgba(54, 54, 54, 1);
+}
+
+#featured_1.home-section.wg-featured div.btn-links .btn:hover {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(0, 0%, 95%, 1);
+  color: hsla(0, 0%, 95%, 1);
+  background: rgba(54, 54, 54, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 1);
+  font-family: 'Lato', sans-serif;
+}
+
+#featured_1.home-section.wg-featured div.btn-links .btn:focus {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(0, 0%, 95%, 1);
+  color: hsla(0, 0%, 95%, 1);
+  background: rgba(54, 54, 54, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 1);
+  font-family: 'Lato', sans-serif;
+}
+
+#featured_1.home-section.wg-featured div.btn-links .btn:active{
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(0, 0%, 95%, 1);
+  color: hsla(0, 0%, 95%, 1);
+  background: rgba(54, 54, 54, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 1);
+  font-family: 'Lato', sans-serif;
+}
+
+#featured_1.home-section.wg-featured div.stream-meta.article-metadata span[itemprop = 'author'] a {
+  font-family: 'Lato', sans-serif;
+  /*color: rgba(137, 112, 118, 0.7);*/
+  color: rgba(54, 54, 54, 0.6);
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+#featured_1.home-section.wg-featured div.stream-meta.article-metadata span[itemprop = 'author'] a:hover, a:focus {
+  font-family: 'Lato', sans-serif;
+  /*color: rgba(137, 112, 118, 1);*/
+  color: rgba(54, 54, 54, 1);
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* --------------------------
+/* .dark Featured
+/*----------------------------*/
+
+.dark #featured_1.home-section.wg-featured div.article-style {
+  /*color: rgba(255, 255, 250, 0.9);*/
+  color: rgba(245, 245, 245, 1);
+  font-family: 'Lato', sans-serif;
+}
+
+.dark #featured_1.home-section.wg-featured a {
+  /*color: rgba(249, 211, 66, 0.75);*/
+  color: rgba(245, 245, 245, 0.6);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Play', sans-serif;
+}
+
+.dark #featured_1.home-section.wg-featured a:hover {
+  /*color: rgba(249, 211, 66, 1);*/
+  color: rgba(245, 245, 245, 1);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Play', sans-serif;
+}
+
+.dark #featured_1.home-section.wg-featured a:focus {
+  /*color: rgba(249, 211, 66, 1);*/
+  color: rgba(245, 245, 245, 1);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Play', sans-serif;
+}
+
+.dark #featured_1.home-section.wg-featured a:active {
+  /*color: rgba(249, 211, 66, 1);*/
+  color: rgba(245, 245, 245, 1);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Play', sans-serif;
+}
+
+.dark #featured_1.home-section.wg-featured div.article-style {
+  font-family: 'Lato', sans-serif;
+}
+
+.dark #featured_1.home-section.wg-featured div.btn-links .btn {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid;
+  font-family: 'Lato', sans-serif;
+  color: hsla(0, 0%, 96%, 1);
+}
+
+.dark #featured_1.home-section.wg-featured div.btn-links .btn:hover {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(0, 0%, 21%, 1);
+  color: hsla(0, 0%, 21%, 1);
+  background: hsla(0, 0%, 96%, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 hsla(0, 0%, 96%, 1);
+  font-family: 'Lato', sans-serif;
+}
+
+.dark #featured_1.home-section.wg-featured div.btn-links .btn:focus {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(0, 0%, 21%, 1);
+  color: hsla(0, 0%, 21%, 1);
+  background: hsla(0, 0%, 96%, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 hsla(0, 0%, 96%, 1);
+  font-family: 'Lato', sans-serif;
+}
+
+.dark #featured_1.home-section.wg-featured div.btn-links .btn:active{
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(0, 0%, 21%, 1);
+  color: hsla(0, 0%, 21%, 1);
+  background: hsla(0, 0%, 96%, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 hsla(0, 0%, 96%, 1);
+  font-family: 'Lato', sans-serif;
+}
+
+.dark #featured_1.home-section.wg-featured div.stream-meta.article-metadata span[itemprop = 'author'] a {
+  font-family: 'Lato', sans-serif;
+  color: rgba(245, 245, 245, 0.6);
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.dark #featured_1.home-section.wg-featured div.stream-meta.article-metadata span[itemprop = 'author'] a:hover, a:focus {
+  font-family: 'Lato', sans-serif;
+  color: rgba(245, 245, 245, 1);
+  font-size: 0.8rem;
+  font-weight: bold;
   text-decoration: none;
 }
