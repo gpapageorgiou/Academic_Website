@@ -90,6 +90,12 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-I am currently working towards my PhD degree at the Department of Biostatistics and the Department of Thorax Surgery at the <span style = 'font-weight: bold'>E</span>rasmus <span style = 'font-weight: bold'>U</span>niversity <span style = 'font-weight: bold'>M</span>edical <span style = 'font-weight: bold'>C</span>enter under the supervision of Prof. [Dimitris Rizopoulos](https://www.drizopoulos.com), Prof. [Johanna J. M. Takkenberg](https://www.researchgate.net/profile/Johanna_Takkenberg) and Dr. [Mostafa M. Mokhles](https://www.researchgate.net/profile/Mostafa_Mokhles). 
+As a researcher at Erasmus MC, I am currently working towards my PhD degree at the Department of Biostatistics and the Department of Thorax Surgery  at the <span style = 'font-weight: bold'>E</span>rasmus <span style = 'font-weight: bold'>U</span>niversity <span style = 'font-weight: bold'>M</span>edical <span style = 'font-weight: bold'>C</span>enter under the supervision of Prof. [Dimitris Rizopoulos](https://www.drizopoulos.com), Prof. [Johanna J. M. Takkenberg](https://www.researchgate.net/profile/Johanna_Takkenberg) and Dr. [Mostafa M. Mokhles](https://www.researchgate.net/profile/Mostafa_Mokhles).
 
-My research mainly focuses on extensions of Joint Models for longitudinal and time-to-event data. More specifically, I am working on the development of joint models that can incorporate intermediate events and time-varying treatments during follow-up as well as the development of individualized dynamic prediction tools which are adaptive to future changes regarding the occurrence of intermediate events or/and treatment changes. 
+More specifically, I am working on the development of joint models that can incorporate intermediate events (such as treatment changes, side-effects etc.) and time-varying treatments during follow-up as well as the development of individualized dynamic prediction tools which are adaptive to future changes regarding the occurrence of intermediate events or/and treatment changes. 
+
+Apart from research, I also work as a consultant and teaching assistant for the Department of Biostatistics. 
+As a consultant, I provide advice on a broad range of statistical, study design, statistical software and methodological questions for various departments of Erasmus MC via the Consultation centre for Patient-Oriented research (CPO). This often leads to extended collaborations and deeper involvement in research projects.        
+
+As of mid-2019, I am also glad to be part of the NIHES Innovation Team. My role is to support teachers in developing online versions for their courses. Our goal is to expand the overall educational experience for the students by exploiting the flexibility, interactivity and creativity of state-of-the-art e-learning tools. 
+
