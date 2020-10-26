@@ -1,11 +1,9 @@
 +++
-title = "Evaluating the Effectiveness and Cost-Effectiveness of Seizure Dogs in Persons With Medically
-Refractory Epilepsy in the Netherlands: Study Protocol for a Stepped Wedge Randomized Controlled
-Trial (EPISODE)"
+title = "Evaluating the Effectiveness and Cost-Effectiveness of Seizure Dogs in Persons With Medically Refractory Epilepsy in the Netherlands: Study Protocol for a Stepped Wedge Randomized Controlled Trial (EPISODE)"
 date = 2020-01-10T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Valérie Wester", "Saskia de Groot", "Tim Kanters", "Louis Wagner", "Jacqueline Ardesch", "Isaac Corro Ramos", "Marie-Jose Enders-Slegers", "Martine de Ruiter", "Saskia le Cessie", "Jeanine Los", "Grigorios Papageorgiou", "Job van Exel", "Matthijs Versteegh", on behalf of the EPISODE-team]
+authors = ["Valérie Wester", "Saskia de Groot", "Tim Kanters", "Louis Wagner", "Jacqueline Ardesch", "Isaac Corro Ramos", "Marie-Jose Enders-Slegers", "Martine de Ruiter", "Saskia le Cessie", "Jeanine Los", "Grigorios Papageorgiou", "Job van Exel", "Matthijs Versteegh", "on behalf of the EPISODE-team"]
 
 # Publication type.
 # Legend:
