@@ -17,7 +17,7 @@ authors = ["Grigorios Papageorgiou", "Mostafa M. Mokhles", "Johanna J.M. Takkenb
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In *Statistics in Medicine*, 2019, 1-18."
+publication = "In *Statistics in Medicine*"
 publication_short = "In *Statistics in Medicine*"
 
 # Abstract.

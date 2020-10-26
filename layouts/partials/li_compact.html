@@ -73,7 +73,7 @@
       </div>
       <div itemprop = 'publi'>
       {{- .Params.publication | markdownify -}}
-      {{- .Date.Format "2006" -}}.
+      {{- .Date.Format ", 2006" -}}.
       </div>
       {{ else if not $show_authors_only }}
         {{ partial "page_metadata" (dict "content" $item "is_list" 1) }}

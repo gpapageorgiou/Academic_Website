@@ -17,7 +17,7 @@ authors = ["Grigorios Papageorgiou", "Dimitris Rizopoulos"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In *Statistical Modelling*, 2020"
+publication = "In *Statistical Modelling*"
 publication_short = "In *Statistical Modelling*"
 
 # Abstract.

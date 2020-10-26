@@ -17,7 +17,7 @@ authors = ["Djamila Abjigitova", "Mostafa M. Mokhles", "Grigorios Papageorgiou",
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In *Journal of Cardiac Surgery*, 2020"
+publication = "In *Journal of Cardiac Surgery*"
 publication_short = "In *JoCS*"
 
 # Abstract.

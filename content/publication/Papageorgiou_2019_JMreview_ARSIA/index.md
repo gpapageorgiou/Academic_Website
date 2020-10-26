@@ -17,7 +17,7 @@ authors = ["Grigorios Papageorgiou", "Katya Mauff", "Anirudh Tomer", "Dimitris R
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In *Annual Review of Statistics and Its Application (ARSIA)*, 2019, 6, 223-240."
+publication = "In *Annual Review of Statistics and Its Application (ARSIA)*"
 publication_short = "In *ARSIA*"
 
 # Abstract.

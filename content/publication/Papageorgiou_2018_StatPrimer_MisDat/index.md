@@ -17,7 +17,7 @@ authors = ["Grigorios Papageorgiou", "Stuart W. Grant", "Johanna J.M. Takkenberg
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In *Interactive CardioVascular and Thoracic Surgery (ICVTS)*, 2018, 27, 153-158."
+publication = "In *Interactive CardioVascular and Thoracic Surgery (ICVTS)*"
 publication_short = "In *ICVTS*"
 
 # Abstract.
