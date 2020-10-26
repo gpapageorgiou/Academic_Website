@@ -5,10 +5,10 @@
 
 widget = "blank"  # Do not modify this line!
 active = true  # Activate this widget? true/false
-weight = 50  # Order that this section will appear.
+weight = 40  # Order that this section will appear.
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
-title = "Funware"
+title = "CV"
 subtitle = ""
 
 [design]
@@ -43,10 +43,5 @@ subtitle = ""
  css_class = ""
 +++
 
-## <span style = "font-family: 'Orbitron', sans-serif;">rQuote</span> <img src="../../img/Hex_Stickers/rQuote_light.png" align="right">
-[GitHub](https://github.com/gpapageorgiou/rQuote) | 
-[website](https://gpapageorgiou.github.io/rQuote/)
-
-<span style = "font-family: 'Fredericka the Great', cursive; font-size: 26px;">&ldquo; Random words of wisdom in curly quotes &rdquo;</span>
-
-<span style = "font-family: 'Orbitron', sans-serif; font-weight: bold">rQuote</span> is an R-package that I developed while trying to teach myself how to develop R-packages. Doing so allowed me to practice the extensive online book on [R-package development](http://r-pkgs.had.co.nz/) by [Hadley Wickham](http://hadley.nz/) and to learn how to create a website for my package using [pkgdown](https://pkgdown.r-lib.org/). On the same time I was able to learn some web-scraping with [rvest](https://github.com/tidyverse/rvest) and improve my <b>regex</b> skills. It also made this whole process fun and creative. Most importantly, though, I got to read many random quotes. Too many random quotes. Definitely more than I should. 
+You can download my full CV here: {{% staticref "files/Academic_CV.pdf" %}} CV {{% /staticref %}}<br>
+<span style = 'font-size: 16px'>(Last Update: 26/10/2020)</span>
