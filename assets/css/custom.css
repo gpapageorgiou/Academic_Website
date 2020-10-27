@@ -263,6 +263,193 @@ small,
 }
 
 /*************************************************
+ *  Publications List
+ **************************************************/
+
+.universal-wrapper a {
+  /*color: rgba(215, 0, 38, 0.7);*/
+  color: rgba(54, 54, 54, 0.6);
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Play', sans-serif;
+}
+
+
+.universal-wrapper .pub-list-item{
+  /*color: rgba(215, 0, 38, 0.7);*/
+  /*color: rgba(54, 54, 54, 0.6);*/
+  font-size: 16px;
+  font-weight: bold;
+  /*font-family: 'Play', sans-serif;*/
+}
+
+.universal-wrapper a[itemprop = 'name'] {
+  /*color: rgba(215, 0, 38, 0.7);*/
+  /*color: rgba(27, 27, 27, 0.6);*/
+  font-size: 16px;
+  font-weight: bold;
+  /*font-family: 'Play', sans-serif;*/
+}
+
+
+.universal-wrapper a:hover {
+  /*color: rgba(215, 0, 38, 1);*/
+  color: rgba(54, 54, 54, 1);
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Play', sans-serif;
+}
+
+.universal-wrapper a:focus {
+  /*color: rgba(215, 0, 38, 1);*/
+  color: rgba(54, 54, 54, 1);
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Play', sans-serif;
+}
+
+.universal-wrapper a:active {
+  /*color: rgba(215, 0, 38, 1);*/
+  color: rgba(54, 54, 54, 1);
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Play', sans-serif;
+}
+
+.universal-wrapper div.article-style {
+  font-family: 'Lato', sans-serif;
+}
+
+.universal-wrapper .btn {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid;
+  font-family: 'Lato', sans-serif;
+  color: rgba(54, 54, 54, 1);
+}
+
+.universal-wrapper .btn:hover {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(0, 0%, 95%, 1);
+  color: hsla(0, 0%, 95%, 1);
+  background: rgba(54, 54, 54, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 1);
+  font-family: 'Lato', sans-serif;
+}
+
+.universal-wrapper .btn:focus {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(0, 0%, 95%, 1);
+  color: hsla(0, 0%, 95%, 1);
+  background: rgba(54, 54, 54, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 1);
+  font-family: 'Lato', sans-serif;
+}
+
+.universal-wrapper .btn:active{
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(0, 0%, 95%, 1);
+  color: hsla(0, 0%, 95%, 1);
+  background: rgba(54, 54, 54, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 rgba(54, 54, 54, 1);
+  font-family: 'Lato', sans-serif;
+}
+
+.dark .universal-wrapper .pub-list-item{
+  /*color: rgba(215, 0, 38, 0.7);*/
+  /*color: rgba(54, 54, 54, 0.6);*/
+  font-size: 16px;
+  font-weight: bold;
+  /*font-family: 'Play', sans-serif;*/
+}
+
+.dark .universal-wrapper a {
+/*color: rgba(249, 211, 66, 0.75);*/
+  color: rgba(245, 245, 245, 0.6);
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Play', sans-serif;
+}
+
+.dark .universal-wrapper a[itemprop = 'name'] {
+  /*color: rgba(215, 0, 38, 0.7);*/
+  /*color: rgba(27, 27, 27, 0.6);*/
+  font-size: 16px;
+  font-weight: bold;
+  /*font-family: 'Play', sans-serif;*/
+}
+
+.dark .universal-wrapper a:hover {
+/*color: rgba(249, 211, 66, 1);*/
+  color: rgba(245, 245, 245, 1);
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Play', sans-serif;
+}
+
+.dark .universal-wrapper a:focus {
+/*color: rgba(249, 211, 66, 1);*/
+  color: rgba(245, 245, 245, 1);
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Play', sans-serif;
+}
+
+.dark .universal-wrapper a:active {
+/*color: rgba(249, 211, 66, 1);*/
+  color: rgba(245, 245, 245, 1);
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Play', sans-serif;
+}
+
+.dark .universal-wrapper div.article-style {
+  font-family: 'Lato', sans-serif;
+}
+
+.dark .universal-wrapper .btn {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid;
+  font-family: 'Lato', sans-serif;
+  color: hsla(0, 0%, 96%, 1);
+}
+
+.dark .universal-wrapper .btn:hover {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(0, 0%, 21%, 1);
+  color: hsla(0, 0%, 21%, 1);
+  background: hsla(0, 0%, 96%, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 hsla(0, 0%, 96%, 1);
+  font-family: 'Lato', sans-serif;
+}
+
+.dark .universal-wrapper .btn:focus {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(0, 0%, 21%, 1);
+  color: hsla(0, 0%, 21%, 1);
+  background: hsla(0, 0%, 96%, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 hsla(0, 0%, 96%, 1);
+  font-family: 'Lato', sans-serif;
+}
+
+.dark .universal-wrapper .btn:active{
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid hsla(0, 0%, 21%, 1);
+  color: hsla(0, 0%, 21%, 1);
+  background: hsla(0, 0%, 96%, 1);
+  box-shadow: 0 0.075rem 0.5rem 0 hsla(0, 0%, 96%, 1);
+  font-family: 'Lato', sans-serif;
+}
+
+
+/*************************************************
  *  Search.
  **************************************************/
 
