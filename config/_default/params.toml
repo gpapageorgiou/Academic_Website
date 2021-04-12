@@ -52,7 +52,7 @@ time_format = "3:04 PM"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "g.papageorgiou@erasmusmc.nl"
 phone = ""
-address = "Na 2818, Erasmus University Medical Center, Wytemaweg 80, 3015CN Rotterdam, the Netherlands"
+address = "Na 2818, Erasmus University Medical Center, Dr. Molewaterplein 40, 3015 GD Rotterdam, the Netherlands"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = ""
