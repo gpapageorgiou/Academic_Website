@@ -38,8 +38,9 @@ user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "PhD Student in Biostatistics"
+  course = "PhD in Biostatistics"
   institution = "Erasmus University Medical Center"
+  year = 2021
 
 [[education.courses]]
   course = "MSc in Statistics"
