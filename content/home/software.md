@@ -5,10 +5,10 @@
 
 widget = "blank"  # Do not modify this line!
 active = true  # Activate this widget? true/false
-weight = 60  # Order that this section will appear.
+weight = 50  # Order that this section will appear.
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
-title = "Funware"
+title = "Software"
 subtitle = ""
 
 [design]
@@ -43,10 +43,12 @@ subtitle = ""
  css_class = ""
 +++
 
-## <span style = "font-family: 'Orbitron', sans-serif;">rQuote</span> <img src="../../img/Hex_Stickers/rQuote_light.png" align="right">
-[GitHub](https://github.com/gpapageorgiou/rQuote) | 
-[website](https://gpapageorgiou.github.io/rQuote/)
+## JMbayes2 <img src="../../img/Hex_Stickers/JMbayes2_logo.png" width="160" height="160" align="right">
+[GitHub](https://github.com/drizopoulos/JMbayes2) | 
+[website](https://drizopoulos.github.io/JMbayes2/)
 
-<span style = "font-family: 'Fredericka the Great', cursive; font-size: 26px;">&ldquo; Random words of wisdom in curly quotes &rdquo;</span>
+<b>JMbayes2</b> is an R-package that was co-developed by Prof. [Dimitris Rizopoulos](https://www.drizopoulos.com), me, and [Pedro M. Afonso](https://www.pafonso.com/)
 
-<span style = "font-family: 'Orbitron', sans-serif; font-weight: bold">rQuote</span> is an R-package that I developed while trying to teach myself how to develop R-packages. Doing so allowed me to practice the extensive online book on [R-package development](http://r-pkgs.had.co.nz/) by [Hadley Wickham](http://hadley.nz/) and to learn how to create a website for my package using [pkgdown](https://pkgdown.r-lib.org/). On the same time I was able to learn some web-scraping with [rvest](https://github.com/tidyverse/rvest) and improve my <b>regex</b> skills. It also made this whole process fun and creative. Most importantly, though, I got to read many random quotes. Too many random quotes. Definitely more than I should. 
+The package <b>JMbayes2</b> fits joint models for longitudinal and time-to-event data. It can accommodate multiple longitudinal outcomes of different type (e.g., continuous, dichotomous, ordinal, counts), and assuming different distributions, i.e., Gaussian, Student’s-t, Gamma, Beta, unit Lindley, censored Normal, Binomial, Poisson, Negative Binomial, and Beta-Binomial. For the event time process, right, left and interval censored data can be handled, while competing risks and multi-state processes are also covered.
+
+<b>JMbayes2</b> fits joint models using Markov chain Monte Carlo algorithms implemented in C++. Besides the main modeling function, the package also provides a number of functions to summarize and visualize the results.

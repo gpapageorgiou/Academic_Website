@@ -24,9 +24,14 @@
   weight = 40
   
 [[main]]
+  name = "Software"
+  url = "#software"
+  weight = 50
+  
+[[main]]
   name = "Funware"
   url = "#funware_2"
-  weight = 50
+  weight = 60
 
 #[[main]]
 #  name = "Posts"
@@ -56,7 +61,7 @@
 [[main]]
   name = "Contact"
   url = "#contact_1"
-  weight = 60
+  weight = 70
 
 # example dropdown menu blogroll
   
