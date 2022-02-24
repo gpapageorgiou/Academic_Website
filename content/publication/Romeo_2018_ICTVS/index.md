@@ -17,7 +17,7 @@ authors = ["Jamie L R Romeo", "Grigorios Papageorgiou", "Pieter C van de Woestij
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In *Interactive CardioVascular and Thoracic Surgery	*"
+publication = "In *Interactive CardioVascular and Thoracic Surgery*"
 publication_short = "In *ICVTS*"
 
 # Abstract.
@@ -30,7 +30,7 @@ summary = ""
 doi = "10.1093/icvts/ivy057"
 
 # Is this a featured publication? (true/false)
-featured = false
+featured = true
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.

@@ -5,7 +5,7 @@
 
 widget = "blank"  # Do not modify this line!
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 60  # Order that this section will appear.
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
 title = "CV"
@@ -44,4 +44,4 @@ subtitle = ""
 +++
 
 You can download my full CV here: {{% staticref "files/Academic_CV.pdf" %}} CV {{% /staticref %}}<br>
-<span style = 'font-size: 16px'>(Last Update: 26/10/2020)</span>
+<span style = 'font-size: 16px'>(Last Update: 24/02/2022)</span>
