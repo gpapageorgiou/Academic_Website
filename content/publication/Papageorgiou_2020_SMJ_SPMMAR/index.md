@@ -1,6 +1,6 @@
 +++
 title = "An alternative characterization of MAR in shared parameter models for incomplete longitudinal data and its utilization for sensitivity analysis"
-date = 2020-06-10T00:00:00
+date = 2021-06-10T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Grigorios Papageorgiou", "Dimitris Rizopoulos"]
