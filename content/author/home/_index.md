@@ -97,9 +97,11 @@ Experience in many therapeutic areas, including cardiovascular, metabolic and in
 
 For the past few years I have also been providing scientific and regulatory advice as a part-time methodological assessor at [CBG-MEB](https://english.cbg-meb.nl/), which is part of the European regulatory medicines network. 
 
+I am also actively involved with software development and worked closely with Prof. [Dimitris Rizopoulos](https://www.drizopoulos.com) and [Pedro M. Afonso](https://www.pafonso.com/) in the development of R package [JMbayes2](https://drizopoulos.github.io/JMbayes2/).
+
 In the past I worked at the Erasmus University Medical Center as a PhD candidate and later as a post-doctoral researcher. During my years at Erasmus MC, I worked on the development of novel methodology with a focus on joint models for longitudinal & time-to-event data. More specifically, during the course of my PhD at the Department of Biostatistics and the Department of Thorax Surgery at the <span style = 'font-weight: bold'>E</span>rasmus <span style = 'font-weight: bold'>U</span>niversity <span style = 'font-weight: bold'>M</span>edical <span style = 'font-weight: bold'>C</span>enter I worked on the development of joint models that can incorporate intermediate events (such as treatment changes, side-effects etc.) and time-varying treatments during follow-up as well as the development of individualized dynamic prediction tools which are adaptive to future changes regarding the occurrence of intermediate events or/and treatment changes. This work was done under the supervision of Prof. [Dimitris Rizopoulos](https://www.drizopoulos.com), Prof. [Johanna J. M. Takkenberg](https://www.researchgate.net/profile/Johanna_Takkenberg) and Dr. [Mostafa M. Mokhles](https://www.researchgate.net/profile/Mostafa_Mokhles). 
 
-I am also involved with software development and worked closely with Prof. [Dimitris Rizopoulos](https://www.drizopoulos.com) and [Pedro M. Afonso](https://www.pafonso.com/) in the development of R package [JMbayes2](https://drizopoulos.github.io/JMbayes2/).
+
 
       
 
