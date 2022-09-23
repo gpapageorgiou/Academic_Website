@@ -9,7 +9,7 @@ authors = ["home"]
 superuser = true
 
 # Role/position
-role = 'Biostatistician'
+role = 'Biostatistician | Data Scientist'
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -91,7 +91,7 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-Biostatistician & Data Scientist. Currently working as a Statistics Leader at the Statistics and Data Science Innovation Hub at [GSK](https://www.gsk.com/en-gb/). 
+Currently working as a Statistics Leader at the Statistics and Data Science Innovation Hub at [GSK](https://www.gsk.com/en-gb/). 
 
 Experience in many therapeutic areas, including cardiovascular, metabolic and infectious diseases using a wide range of methods (joint models, dynamic predictions, mixed-models, survival analysis, multi-state models). 
 
