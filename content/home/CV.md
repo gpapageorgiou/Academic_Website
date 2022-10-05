@@ -44,4 +44,4 @@ subtitle = ""
 +++
 
 You can download my full CV here: {{% staticref "files/Academic_CV.pdf" %}} CV {{% /staticref %}}<br>
-<span style = 'font-size: 16px'>(Last Update: 24/02/2022)</span>
+<span style = 'font-size: 16px'>(Last Update: 05/10/2022)</span>
