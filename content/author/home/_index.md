@@ -60,7 +60,7 @@ user_groups = ["Researchers", "Visitors"]
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:g.papageorgiou@erasmusmc.nl"  # For a direct email link, use "mailto:test@example.org".
+  link = "mailto:greg.x.papageorgiou@gsk.com"  # For a direct email link, use "mailto:test@example.org".
 
 [[social]]
   icon = "twitter"

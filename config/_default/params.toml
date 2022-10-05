@@ -50,9 +50,9 @@ time_format = "3:04 PM"
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "g.papageorgiou@erasmusmc.nl"
+email = ""
 phone = ""
-address = "Na 2818, Erasmus University Medical Center, Dr. Molewaterplein 40, 3015 GD Rotterdam, the Netherlands"
+address = ""
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = ""
@@ -64,6 +64,7 @@ appointment_url = ""
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
   {icon = "twitter", icon_pack = "fab", name = "gr_papageorgiou", link = "https://twitter.com/gr_papageorgiou"},
+  {icon = "envelope", icon_pack = "fas", name = "click to send e-mail", link = "mailto:greg.x.papageorgiou@gsk.com"}
   # {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
   # {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
   # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
